@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+test-results/
+.browser-profile/
+.edge-test-profile/
+__pycache__/
+*.pyc

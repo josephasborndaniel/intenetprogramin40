@@ -1,0 +1,3 @@
+@import url("../../styles/experiment.css");
+:root{--accent:hsl(158 48% 30%);--tint:hsl(158 45% 94%);--warm:hsl(203 60% 84%);}
+ .catalog{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))} 

@@ -1,0 +1,3203 @@
+[
+  {
+    "id": "EXP01",
+    "number": 1,
+    "title": "Library Management System",
+    "slug": "library",
+    "folder": "exp01-library",
+    "category": "Learning",
+    "mode": "library",
+    "brand": "The reading room",
+    "tagline": "Find your next chapter.",
+    "icon": "📚",
+    "label": "Books",
+    "features": [
+      "Search books",
+      "Issue and return",
+      "Overdue fines",
+      "Study materials"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "The Silent River",
+        "category": "Fiction",
+        "price": 0,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "The Silent River — a fictional fiction listing for the The reading room academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Algorithms Illustrated",
+        "category": "Academic",
+        "price": 0,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Algorithms Illustrated — a fictional academic listing for the The reading room academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "A Brief History of Stars",
+        "category": "Science",
+        "price": 0,
+        "stock": 10,
+        "location": "OMR",
+        "description": "A Brief History of Stars — a fictional science listing for the The reading room academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Designing the Web",
+        "category": "Academic",
+        "price": 0,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Designing the Web — a fictional academic listing for the The reading room academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "1",
+    "page": 1,
+    "pages": [
+      1
+    ],
+    "source": "1.A local library needs a website to streamline operations and enhance user \nexperience. The site will include a catalog for searching and viewing books, user \naccounts for borrowing and managing books, and an admin dashboard for \nmanaging inventory and user data. Essential features include a search function, \nbook details page, user login system, and contact form,Thesystem helps both \nstudents and library managers to keep constant track of all the books available in \nthe library. It allows both the admin and the student to search for the desired book. \nIt becomes necessary for colleges to keep a continuous check on the books issued \nand returned and even calculate fines.\nLibrarian Admin:\nLogin\nAdd Book\nUpdate/DeleteBook\nIssueBookforstudent\nReturnBook Status\nMakeFine\nUpdatematerial(year,semesterwise )\nViewmaterial\nUser\nLogin\nRegister\nSearchBook\nMyBorrowHistoryBook\noIssueDate,ExpDate\nCheckFine\nSearchmaterial(year,semesterwise)\nDownloadmaterial\nMyprofile",
+    "hue": 155
+  },
+  {
+    "id": "EXP02",
+    "number": 2,
+    "title": "Hotel Room Booking",
+    "slug": "hotel",
+    "folder": "exp02-hotel",
+    "category": "Travel",
+    "mode": "booking",
+    "brand": "The Fern House",
+    "tagline": "A little escape. A better stay.",
+    "icon": "🛎",
+    "label": "Rooms",
+    "features": [
+      "Date availability",
+      "Room reservations",
+      "Three-day changes",
+      "Room inventory"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Garden Single",
+        "category": "Single",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Garden Single — a fictional single listing for the The Fern House academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Courtyard Double",
+        "category": "Double",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Courtyard Double — a fictional double listing for the The Fern House academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Hillview Deluxe",
+        "category": "Deluxe",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Hillview Deluxe — a fictional deluxe listing for the The Fern House academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Heritage Suite",
+        "category": "Suite",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Heritage Suite — a fictional suite listing for the The Fern House academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "2",
+    "page": 1,
+    "pages": [
+      1,
+      2
+    ],
+    "source": "2.The online hotel room booking website allows users to search for hotels based on destination, \ndates, and number of guests, offering detailed listings with room options, prices, amenities, and \nreviews. Users can create accounts, log in, and manage their bookings through a user-friendly \ndashboard. The booking process includes checking room availability, filling out a booking form, \nand completing secure payments via an integrated payment gateway. Post-booking, users \nreceive confirmation emails and can leave reviews and ratings. Admins manage hotel listings, \nroom availability, and user accounts through a dedicated admin panel. The website is fully \nresponsive, ensuring seamless access on all devices.\nFunctionalities:\nUsers.\n1.Userscanregister at thehotel andthentheycanviewormodifytheir profile.\n2.Userscanbook aroomonany specificdate.",
+    "hue": 192
+  },
+  {
+    "id": "EXP03",
+    "number": 3,
+    "title": "Bus Ticket Booking",
+    "slug": "bus",
+    "folder": "exp03-bus",
+    "category": "Travel",
+    "mode": "transport",
+    "brand": "Miles & More",
+    "tagline": "Good journeys start here.",
+    "icon": "🚌",
+    "label": "Buses",
+    "features": [
+      "Route search",
+      "Seat selection",
+      "Ticket printing",
+      "Bus management"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Coastal Volvo",
+        "category": "Volvo",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Coastal Volvo — a fictional volvo listing for the Miles & More academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Night Sleeper",
+        "category": "Sleeper",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Night Sleeper — a fictional sleeper listing for the Miles & More academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "City Express",
+        "category": "AC",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "City Express — a fictional ac listing for the Miles & More academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Sunrise Coach",
+        "category": "Seater",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Sunrise Coach — a fictional seater listing for the Miles & More academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "3",
+    "page": 2,
+    "pages": [
+      2,
+      3
+    ],
+    "source": "3.Userscan viewall their bookinghistory atthehotel.\n4.Userscanchangethebookingat anytime3 daysbeforethearrivaldate.\n5.Userscancancelthe bookingatany time3daysbeforethe arrivaldate.\n6.Userscancheck theroomavailability atthehotel beforetheybook aroom.\nAdministrator\n7.Administratorscanchangethe quantityandpriceofallfour typesofrooms.\n8.Administratorscan changeany specificbooking details.\n9.Administratorscan cancel anyspecificbooking.\n10.Administratorscanmodifythedetailsofstatic pagesincludingroominformation,aboutus\ninformation, contact us information, customer service Q&A details, local travel and shipping\nguide,and privacy policyafter login.\n11.Itshouldalsocontainabasicroomtypeintroduction,contactinformation,customerservice\nQ&A,local traveland shipping guide, andaprivacypolicy\n3.The online bus ticket booking system enables users to search for buses by route, date, and time, \nand view available seats. Users can create an account, log in, and manage their bookings \nthrough a personal dashboard. The booking process includes selecting seats, filling out \npassenger details, and making secure payments via an integrated payment gateway. Admins \ncan manage bus schedules, seat availability, and user accounts through an admin panel. Users \nreceive booking confirmation emails and can view their booking history. The website is mobile-\nresponsive, ensuring easy access on all devices.\nAdmin\nInthissystem,theadmincanmaintainalltheBusinformationandmaintainBuscategory,\ncommentsetc.\nInthissystem,theadmincanmaintaintheregisteredusers,managenews,andtheadmincangenerate\nreports and managethe wholesystem.\nLogin:\nLoginModuleincludesvariousutilitieslikeUserAuthentication,Change PasswordandForgot\nPassword.\nRegistration:\nThis website providessomefacilities users canbeRegistered in thiswebsite.user canusethisfacility\nso user can make aregistration\n.\nBooktheTicket:\nInthismodule,theadmincanaddanewbuscategoryusingthismodule.BusCategorycontains\nlikeVolvo, Slipper coach, coachetc.\nUpdateBusInformation:\nInthismodule,theadmincanaddorUpdateBususing thismodule.Itcontainsinformation\nabouttheBustype, photo, description,Locationofthetour,AvailableSeats inBus etc.\nCanceltheBookingTicket:\nInthisModule,theUser cancancelthebooking Ticket.\nComments:\nInthisModule,Users canPostCommentson aparticularBus.\nReportGeneration:\nThismodule is usedto generateareport.",
+    "hue": 229
+  },
+  {
+    "id": "EXP04",
+    "number": 4,
+    "title": "Train Reservation",
+    "slug": "train",
+    "folder": "exp04-train",
+    "category": "Travel",
+    "mode": "transport",
+    "brand": "Rail & Roam",
+    "tagline": "Take the scenic route.",
+    "icon": "🚆",
+    "label": "Trains",
+    "features": [
+      "PNR lookup",
+      "Class and route",
+      "Seat selection",
+      "Cancellation refunds"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Southern Express",
+        "category": "Sleeper",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Southern Express — a fictional sleeper listing for the Rail & Roam academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Blue Mountain Rail",
+        "category": "AC",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Blue Mountain Rail — a fictional ac listing for the Rail & Roam academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Coromandel Express",
+        "category": "Chair",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Coromandel Express — a fictional chair listing for the Rail & Roam academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Valley Passenger",
+        "category": "General",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Valley Passenger — a fictional general listing for the Rail & Roam academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "4",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "source": "4.The online train reservation system allows users to search for trains by route, date, and time, \nand view available seats and classes. Users can register, log in, and manage their reservations \nthrough a personal dashboard. The booking process involves selecting seats, entering passenger \ndetails, and making secure payments via an integrated payment gateway. Admins can manage \ntrain schedules, seat availability, and user accounts through a comprehensive admin panel. \nUsers receive booking confirmation emails andcan view their booking history and print tickets \nfrom their dashboard. The website features real-time seat availability updates and is fully \nresponsive for seamless use on all devices.\nTheReservationsystemshouldcontainthefollowingfeatures:\n1.If a passenger wants to reserve ticket(s), firstly, he/she has to log in to the Railway\nsystem with valid credentials. Then, the passenger has to provide his/her detailswith \nthe date of the journey, names of the passengers and their details, originstation\ndetails,destinationstationdetails,andtheclasstypeoftherequiredticket(s).\n2.The Railway Reservation System will provide the available Train-list, and Seat-\navailability,via-details.\n3.To book a ticket passengers can pay through online/offline mode. After successful\npayment of the ticket fare the System will generate the ticket and PNR no. will be\ngiven to the passenger. The System also keeps the payment details and sends them\ntothesystemAdmin.\n4.The Passenger can check PNR status (confirmed, RAC, waiting list) by enteringthe\nPNRno.intotheReservationsystem.",
+    "hue": 266
+  },
+  {
+    "id": "EXP05",
+    "number": 5,
+    "title": "Flight Reservation",
+    "slug": "flight",
+    "folder": "exp05-flight",
+    "category": "Travel",
+    "mode": "transport",
+    "brand": "Cloudline",
+    "tagline": "Your next horizon awaits.",
+    "icon": "✈",
+    "label": "Flights",
+    "features": [
+      "Flight search",
+      "Seat inventory",
+      "E-tickets",
+      "Feedback and reports"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Chennai to Delhi",
+        "category": "Economy",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Chennai to Delhi — a fictional economy listing for the Cloudline academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Chennai to Mumbai",
+        "category": "Business",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Chennai to Mumbai — a fictional business listing for the Cloudline academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Bengaluru to Kochi",
+        "category": "Economy",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Bengaluru to Kochi — a fictional economy listing for the Cloudline academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Chennai to Hyderabad",
+        "category": "Premium",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Chennai to Hyderabad — a fictional premium listing for the Cloudline academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "5",
+    "page": 4,
+    "pages": [
+      4,
+      5
+    ],
+    "source": "5.The Reservation system should store all train details, fare details (by zone, class,\nand date wise), PNR no, date of trains, etc. This maintenance should be controlled\nbytheAdmin.\n6.The System also has refund rules which have a date of reservation, ticket fare, and\nrefundable percentage. The passenger can simply cancel the ticket(s) by entering\nthe PNR no and a cancel ticket request. After cancellation, the admin will pass the\nrefundable amount to the System and the System will give the refundable amount\ntothepassenger.\n5.The online flight reservation system enables users to search for flights by \ndestination, date, and class, displaying available options with real-time seat availability. \nUsers can register, log in, and manage their reservations via a personal dashboard. The\nbooking process includes selecting flights, choosing seats, entering passenger details, and \nmaking secure payments through an integrated payment gateway. Admins can manage \nflight schedules, seat inventory, and user accounts using an advanced admin panel. Users \nreceive booking confirmation emails with e-tickets and can view their booking history and \ntravel itineraries. The website is fully responsive, ensuring an optimal experience on all \ndevices.The airline reservation system is a web-based system that helps in consolidating \nflight data -flight schedules, seat availability, flight fares and reservations from all \nairlines with the help of global distribution systems and provides real-time inventory and \nrates for customers and travel agents to book flight tickets online.\nAdministratorUserLoginPage\nForgotPasswordPage\nSearchFlightPage\nBookTicketPage\nTicketPaymentPage\nMyTicketPage\nCancelTicketPage\nCustomerFeedback\nAdminReport\nSearch FlightPage\nViewBooking Status Page\nPrintTicketPage",
+    "hue": 303
+  },
+  {
+    "id": "EXP06",
+    "number": 6,
+    "title": "Cake Ordering",
+    "slug": "cake",
+    "folder": "exp06-cake",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "Butter & Bloom",
+    "tagline": "Small moments. Sweeter memories.",
+    "icon": "🎂",
+    "label": "Cakes",
+    "features": [
+      "Custom messages",
+      "Cake cart",
+      "Delivery scheduling",
+      "Order tracking"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Belgian Chocolate",
+        "category": "Chocolate",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Belgian Chocolate — a fictional chocolate listing for the Butter & Bloom academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Strawberry Cloud",
+        "category": "Fruit",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Strawberry Cloud — a fictional fruit listing for the Butter & Bloom academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Vanilla Celebration",
+        "category": "Birthday",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Vanilla Celebration — a fictional birthday listing for the Butter & Bloom academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Mango Sunshine",
+        "category": "Fruit",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Mango Sunshine — a fictional fruit listing for the Butter & Bloom academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "6",
+    "page": 5,
+    "pages": [
+      5,
+      6
+    ],
+    "source": "6.The online cake ordering system allows users to browse a variety of cakes by \ncategory, flavor, and occasion, complete with detailed descriptions and images. Users can \nregister, log in, and manage their orders through a personal dashboard. The ordering \nprocess includes selecting a cake, customizing options like size and message, entering \ndelivery details, and making secure payments via an integrated payment gateway. Admins \ncan manage cake inventory, track orders, and handle user accounts through an admin \npanel. Users receive order confirmation emails and can track delivery status. The website \nis fully responsive, providing a seamless shopping experience on all devices.Buya Cake \nis a portal which allows admin in developing counters to advertise and sell their cake. This \nwould permit rural communities to make their wares available to the rest of the world. \nTheproposed system is to develop the website for cake store. User can buy the nearby \ncake available in app. An E Com App is a portal which allows admin in developing \nproductsto promote and sell their goods. This would permit rural communities to make \ntheir wares available to the rest of the world.\nStudent\nRegister\nLogin\nSearchCake\nFilter\nCategory\nSubcategory\nPriceRange\nViewCakelist\nViewcakedescription\nAddtoCart\nPlaceorder\nAddShippingAddress\nUpdateShippingAddress\nMyOrder\nViewShippingStatus\nAdmin\nLogin\nManageProducts\nPostCakedetails\nUploadimages\nProduct\nDescription\nManageOrders\nUpdateorderStatus\nShippingLocation\nLogout",
+    "hue": 340
+  },
+  {
+    "id": "EXP07",
+    "number": 7,
+    "title": "Beauty Parlour Appointments",
+    "slug": "salon",
+    "folder": "exp07-salon",
+    "category": "Health",
+    "mode": "booking",
+    "brand": "Petal Studio",
+    "tagline": "Make a little time for you.",
+    "icon": "✂",
+    "label": "Services",
+    "features": [
+      "Stylist selection",
+      "Slot calendar",
+      "Rescheduling",
+      "Deposit simulation"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Signature Haircut",
+        "category": "Hair",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Signature Haircut — a fictional hair listing for the Petal Studio academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Botanical Facial",
+        "category": "Skin",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Botanical Facial — a fictional skin listing for the Petal Studio academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Bridal Styling",
+        "category": "Bridal",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Bridal Styling — a fictional bridal listing for the Petal Studio academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Classic Manicure",
+        "category": "Nails",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Classic Manicure — a fictional nails listing for the Petal Studio academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "7",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "source": "7.The online beauty parlour appointment booking system allows users to browse \navailable services, view stylist profiles, and check appointment slots in real-time. Users \ncan register, log in, and manage their appointments through a personal dashboard. \nThe booking process includes selecting services, choosing a stylist, selecting a date and \ntime, and making secure payments via an integrated payment gateway. Admins can \nmanage service offerings, stylist schedules, and user accounts through a comprehensive \nadmin panel. Users receive appointment confirmation emails and reminders, with the \noption to reschedule or cancel appointments through their dashboard. The website is \nfully responsive, ensuring an optimal experience on all devices. Thiswebsite helps \ncustomers to search for any beauty parlour and book appointments as they preferable \ndate and time.\nHavereservationscalendar\n➢Create,edit,and cancelreservations\n➢Lockoutunavailablehours\n➢Get the crucial information for each date on the calendar\nCustomers’personal account page\n➢Upcomingreservations\n➢Reservationshistory\n➢Personaldata\nSalonmanagerandstaffmemberinordertocontrolandmanagereservations.\n➢Upcomingreservations\n➢Reservationscalendar\n➢Addreservation\n➢Editreservations\n➢SendanSMSor calltothecustomer\n➢customersleave feedbackabouttheir experiences andlearnfromtheirsuggestions.\nAccept online payments as a whole payment or as a partial deposit with Stripe or PayPal or\nwithone ofthe availablepayments\n➢Requirefull paymentoradeposit\n➢AcceptPayPalorStripe\n➢Automaticcancellationofunpaidreservations\n➢Wehavemorethan twentydifferent payments platforms integration add-ons",
+    "hue": 17
+  },
+  {
+    "id": "EXP08",
+    "number": 8,
+    "title": "Hospital Appointment Booking",
+    "slug": "hospital",
+    "folder": "exp08-hospital",
+    "category": "Health",
+    "mode": "booking",
+    "brand": "MedCare",
+    "tagline": "A simpler way to plan your visit.",
+    "icon": "✚",
+    "label": "Doctors",
+    "features": [
+      "Specialty search",
+      "Appointments",
+      "Check-in history",
+      "Doctor reviews"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Dr Ananya Rao",
+        "category": "General",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Dr Ananya Rao — a fictional general listing for the MedCare academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Dr Kavin Shah",
+        "category": "Cardiology",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Dr Kavin Shah — a fictional cardiology listing for the MedCare academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Dr Meera Iyer",
+        "category": "Dermatology",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Dr Meera Iyer — a fictional dermatology listing for the MedCare academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Dr Dev Menon",
+        "category": "Orthopaedics",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Dr Dev Menon — a fictional orthopaedics listing for the MedCare academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "8",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "source": "8.In an effort to streamline the appointment process and enhance patient experience, \nMedCare Hospital has developed an online appointment booking system. This platform \nallows patients to book appointments with doctors from various specialties at their \nconvenience. Key functionalities include user registration and login, browsing available \ndoctors and appointment slots, booking and canceling appointments, and receiving \nappointment reminders via email or SMS. Patients can also view their appointment \nhistory and update their personal details. The system ensures data security and \ncompliance with healthcare regulations to protect patient information. This online service \naims to reduce wait times, minimize paperwork, and provide a seamless experience for \npatients and healthcare providers alike.This website helps the patient to search any \nhospital and book appointments as they prefer.\nSearchModule\nAppointmentBooking\nCheck-informSubmitting\nAppointmentmanagement\nScheduleatiming\nPastappointmentManagement\nAdminFeatures\nManageappointments\nManagedoctors\nViewAppointmentsstatistics\nRatingDetails\nPatientFeatures\nSignup/Login.\nCanchooseandbookanappointmentattheflexibletimeanddate.\nCansearchfordoctoraccordingtospecialtyandlocation.\nCan write reviews about the doctor and can select doctors according to otheruser\nfeedback.\nCanaccessallpreviouscheck-indetailsandmedicalpastappointment\nUser\nUserRegistration\nUserLogin\nSearchLocationwise\nViewHosptiallist\nBookAppointment\nViewstatus\nViewgooglemapforsinglehospital\nHospital\nHospitalRegistration\nHosptiallogin\nCreatehostpitaldetails\nUpdatedetails\nUpdatelocation",
+    "hue": 54
+  },
+  {
+    "id": "EXP09",
+    "number": 9,
+    "title": "Electronics Shopping — TechSavvy",
+    "slug": "techsavvy",
+    "folder": "exp09-techsavvy",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "TechSavvy",
+    "tagline": "Thoughtful tech. Everyday possibilities.",
+    "icon": "⌘",
+    "label": "Products",
+    "features": [
+      "Catalog filters",
+      "Cart and checkout",
+      "Wish lists",
+      "Admin inventory"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Nova Smartphone",
+        "category": "Phones",
+        "price": 24999,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Nova Smartphone — a fictional phones listing for the TechSavvy academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Atlas Laptop",
+        "category": "Laptops",
+        "price": 58999,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Atlas Laptop — a fictional laptops listing for the TechSavvy academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Echo Headphones",
+        "category": "Accessories",
+        "price": 3499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Echo Headphones — a fictional accessories listing for the TechSavvy academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Orbit Tablet",
+        "category": "Tablets",
+        "price": 18999,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Orbit Tablet — a fictional tablets listing for the TechSavvy academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "9",
+    "page": 8,
+    "pages": [
+      8,
+      9
+    ],
+    "source": "9.TechSavvy, a leading retailer of electronic gadgets, has launched an online shopping \nplatform to provide customers with a seamless and convenient shopping experience. The \nwebsite features a wide range of products, including smartphones, laptops, tablets, and \naccessories, all categorized for easy browsing. Key functionalities include user \nregistration and login, product search and filtering, detailed product descriptions and \nreviews, secure payment options, and order tracking. Customers can add items to their \ncart, create wish lists, and receive personalized recommendations based on their browsing \nand purchase history. The platform also offers exclusive online discounts and promotions, \nensuring customers get the best deals on the latest gadgets.The core of an online shop is \nthe product catalogue and the cart. The users browse productswhich are grouped in \ncategories and add the desired ones to the cart. Next, there is transactionhandling,which\ninitssimplestformconsistsintheorderbeingsentviae-mailtotheseller,butmostoften \nit takesthe whole buying processthrough separateorder statuses.\nProductsshouldbelogicallycategorized,withthemostpopularcategorieslisted\nfirst.Displayalltheavailable categoriesfor shoppingonthehomepage.\nDisplayallthesubcategoriesonthehomepage,thatareassociatedwithanyparticular\nitem.\nAdminhastheauthorityto addnewparticularstotheitemslistwheneverneeded.\nPermissiontotheadministratortoremoveitems,anytime.\nAllowstheadmin tomodify thepriceofeachitem, wheneverrequiredorfeltlike.\nAdminhastheauthority toupdatethe descriptionofeachitem.\nPermissiontotheadmintoviewinformationabouteachcustomerwhocheckoutsthe\nitems list.\nUseCases\n1.Visita site\n2.Login\n3.SearchforItems\n4.CheckAvailabilityofItems\n5.AddItemstoShoppingCart\n6.EditItemsintheShopping Cart\n7.remove ItemsfromtheShoppingCart\n8.CheckouttheShoppingCart\n9.CheckOrderStatus",
+    "hue": 91
+  },
+  {
+    "id": "EXP10",
+    "number": 10,
+    "title": "Fashion Shopping — StyleHub",
+    "slug": "stylehub",
+    "folder": "exp10-stylehub",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "StyleHub",
+    "tagline": "Wear your own story.",
+    "icon": "✦",
+    "label": "Collections",
+    "features": [
+      "Sizes and colours",
+      "Style filters",
+      "Returns and exchanges",
+      "Order history"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Linen Everyday Shirt",
+        "category": "Men",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Linen Everyday Shirt — a fictional men listing for the StyleHub academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Terracotta Dress",
+        "category": "Women",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Terracotta Dress — a fictional women listing for the StyleHub academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "City Sneakers",
+        "category": "Footwear",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "City Sneakers — a fictional footwear listing for the StyleHub academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Canvas Weekender",
+        "category": "Accessories",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Canvas Weekender — a fictional accessories listing for the StyleHub academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "10",
+    "page": 9,
+    "pages": [
+      9,
+      10
+    ],
+    "source": "10.BrowseOrderHistory\n11.DisplayItemDetails\n12.Logout\n13.Leave asite\n10.StyleHub, a premier online fashion retailer, introduces its comprehensive e-commerce \nplatform designed to cater to fashion enthusiasts. The website offers an extensive \ncollection of clothing, footwear, and accessories for men, women, and children, with \ncategories such as casual wear, formal attire, and seasonal collections. Key functionalities \ninclude user registration and login, advanced search and filtering options, detailed \nproduct descriptions with high-resolution images, customer reviews, and size guides. The \nplatform supports secure payment methods, order tracking, and an easy return and \nexchange policy. Customers can create wish lists, receive personalized style \nrecommendations, and enjoy exclusive online discounts and flash sales. StyleHub aims to \nprovide a seamless and enjoyable shopping experience, keeping users up-to-date with the \nlatest fashion trends.The core of an online shop is the product catalogue and the cart. The \nusers browse products which are grouped in categories and add the desired ones to the \ncart. Next, there is transaction handling, which in its simplest form consists in the order \nbeing sent via e-mail to the seller, but most often it takes the whole buying process through \nseparate order statuses.\n➢The key to helping customers find the products they need quickly is to offer a user-\nfriendlynavigationsystem.\n➢Productsshouldbelogicallycategorized,withthe mostpopularcategories listed first.\n➢Displayalltheavailable categories forshoppingonthehomepage.\n➢Displayallthesubcategoriesonthehomepage,thatareassociatedwithanyparticular\nitem.\n➢Adminhastheauthorityto addnewparticularstotheitemslistwheneverneeded.\n➢Permissiontotheadministratortoremoveitems,anytime.\n➢Allowstheadminto modifythepriceofeachitem,whenever requiredor feltlike.\n➢Adminhastheauthority toupdatethe descriptionofeachitem.\n➢Permissiontotheadmintoviewinformationabouteachcustomerwhocheckoutsthe\nitems list.\nUseCases\n2.Visita site\n2.Login\n3.SearchforItems\n4.CheckAvailabilityofItems\n5.AddItemstoShoppingCart\n6.EditItemsintheShopping Cart\n7.remove ItemsfromtheShoppingCart\n8.CheckouttheShoppingCart\n9.CheckOrderStatus\n10.BrowseOrderHistory",
+    "hue": 128
+  },
+  {
+    "id": "EXP11",
+    "number": 11,
+    "title": "Real Estate — Home Finder",
+    "slug": "home-finder",
+    "folder": "exp11-home-finder",
+    "category": "Services",
+    "mode": "property",
+    "brand": "Home Finder",
+    "tagline": "Find a place that feels like you.",
+    "icon": "⌂",
+    "label": "Properties",
+    "features": [
+      "Saved searches",
+      "Property viewings",
+      "Mortgage calculator",
+      "Agent enquiries"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Adyar Garden Apartment",
+        "category": "Apartment",
+        "price": 5800000,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Adyar Garden Apartment — a fictional apartment listing for the Home Finder academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Velachery Family Home",
+        "category": "House",
+        "price": 9200000,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Velachery Family Home — a fictional house listing for the Home Finder academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "OMR Studio",
+        "category": "Studio",
+        "price": 3400000,
+        "stock": 10,
+        "location": "OMR",
+        "description": "OMR Studio — a fictional studio listing for the Home Finder academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Anna Nagar Office",
+        "category": "Commercial",
+        "price": 12500000,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Anna Nagar Office — a fictional commercial listing for the Home Finder academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "11",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "11.DisplayItemDetails\n12.Logout\n13.Leave asite\n11.Home Finder, an innovative online real estate platform, is designed to simplify the \nproperty search and transaction process for buyers, sellers, and renters. The website \nfeatures a comprehensive database of residential and commercial properties, with \nadvanced search filters for location, price, type, and amenities. Key functionalities include \nuser registration and login, detailed property listings with high-quality images and virtual \ntours, and interactive maps to explore neighborhood features. Users can schedule \nproperty viewings, save favorite listings, and receive notifications for new or updated \nproperties matching their criteria. The platform also offers tools for property valuation, \nmortgage calculators, and direct communication with real estate agents. Home Finder \naims to make the property search process efficient and transparent, providing users with \nvaluable.Thiswebsite helps the user to search and book lands/houses in their required \narea in their budget.\n➢Providealoginpageforbuyersandstoretheir usernameandpasswordinthedatabase\nandcan savethe searchcriteriaforthebuyers.\n➢Helpsthebuyerstousethesamesearchcriteriaratherthancreatinganewcriterion\neverytimethe buyer performs the search.\n➢Addmoreadvertisements onthewebsiteor linksto anotherwebsite.\n➢Addagentandcompany search functionality.\n➢Displayingthesearch resultsonGoogleMaps andlocatingtheareawheretheproperty\nlistingis located.\n➢Itshouldbefriendlyand pretty\n➢Storeandgivedetailsof properties\n➢Maintainrecordofcustomersvisitedthewebsite",
+    "hue": 165
+  },
+  {
+    "id": "EXP12",
+    "number": 12,
+    "title": "Insurance Management — InsureEasy",
+    "slug": "insureeasy",
+    "folder": "exp12-insureeasy",
+    "category": "Finance",
+    "mode": "cases",
+    "brand": "InsureEasy",
+    "tagline": "A clearer view of your cover.",
+    "icon": "☂",
+    "label": "Policies",
+    "features": [
+      "Policy comparison",
+      "Premium payments",
+      "Claims",
+      "Agent approval"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Everyday Health",
+        "category": "Health",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Everyday Health — a fictional health listing for the InsureEasy academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Drive Protect",
+        "category": "Auto",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Drive Protect — a fictional auto listing for the InsureEasy academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Home Essentials",
+        "category": "Home",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Home Essentials — a fictional home listing for the InsureEasy academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Family Shield",
+        "category": "Life",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Family Shield — a fictional life listing for the InsureEasy academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "12",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "12.InsureEasy, a cutting-edge online insurance management platform, is designed to \nstreamline the insurance process for users. The website allows customers to easily \ncompare and purchase various insurance policies, including health, auto, and home \ninsurance. Key functionalities include user registration and login, a policy comparison \ntool, detailed policy descriptions, and secure online applications. Users can view and \nmanage their existing policies, make premium payments, and file claims through an \nintuitive dashboard. The platform also provides personalized recommendations based on \nuser profiles and needs, and sends automated reminders for policy renewals and \nupcoming payments. InsureEasy aims to enhance user convenience and provide \ncomprehensive support for all insurance-related needs.This system maintains \ninformation of managers who can deal with agents and customers. In existing system, the \nmanual procedure is followed where records are used to maintain data which is a time \ntaking process and requires manpower and calculating commissions dues. Etc are done \nmanually. This system is where agents send SMS alerts to the policyholder to remind them \nbefore and exceed the data of due.\nAdmin\nLogin\nApproveAgentlogin\nViewallagentdetails\nAgents\nRegister\nLogin\nCreateCustomer\nManagerCustomerDetails\nManagePolicyDetails\nSendSMSAlert\nUser\nLogin\nManagepolicydetails\nGetsmsalert",
+    "hue": 202
+  },
+  {
+    "id": "EXP13",
+    "number": 13,
+    "title": "Flowers and Gifts — BlossomGifts",
+    "slug": "blossomgifts",
+    "folder": "exp13-blossomgifts",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "BlossomGifts",
+    "tagline": "Say it beautifully.",
+    "icon": "❀",
+    "label": "Gifts",
+    "features": [
+      "Occasion filters",
+      "Scheduled delivery",
+      "Cart",
+      "Inventory management"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Peach Rose Bouquet",
+        "category": "Flowers",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Peach Rose Bouquet — a fictional flowers listing for the BlossomGifts academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Celebration Hamper",
+        "category": "Hampers",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Celebration Hamper — a fictional hampers listing for the BlossomGifts academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Orchid Arrangement",
+        "category": "Flowers",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Orchid Arrangement — a fictional flowers listing for the BlossomGifts academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Personalised Keepsake",
+        "category": "Gifts",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Personalised Keepsake — a fictional gifts listing for the BlossomGifts academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "13",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "13.BlossomGifts, a user-friendly online platform, offers a seamless experience for ordering \nflowers and gifts for any occasion. The website features a diverse selection of floral \narrangements, gift baskets, and personalized gifts, all organized by occasion, recipient, \nand price range. Key functionalities include user registration and login, a customizable \norder system with options for delivery dates and times, and detailed product descriptions \nwith high-quality images. Customers can track their orders in real-time, schedule future \ndeliveries, and receive order confirmations via email or SMS. The platform also supports \nsecure payment methods and provides special promotions and discounts for loyal \ncustomers. BlossomGifts aims to make sending thoughtful gifts and flowers easy and \nconvenient, ensuring timely delivery and customer satisfaction.\n➢Thekeytohelpingcustomersfindtheproductstheyneedquicklyistoofferauser-\nfriendlynavigationsystem.\n➢Productsshouldbelogicallycategorized,withthe mostpopularcategories listedfirst.\n➢Displayalltheavailable categories forshoppingonthehomepage.\n➢Displayallthesubcategoriesonthehomepage,thatareassociatedwithanyparticular\nitem.\n➢Adminhastheauthority toaddnew particularstotheitems listwheneverneeded.\n➢Permissiontotheadministratortoremoveitems,anytime.\n➢Allowstheadminto modifythepriceofeachitem,whenever requiredor feltlike.\n➢Permissiontotheadmintoviewinformationabouteachcustomerwhocheckoutsthe\nitems list.\nUseCases\nEdit(Change,Delete)CustomerInfo\nInquireabout ... viaemail\nMaintain(add,change,delete)Inventory\nViewOrder Summary\nVisita site\nLogin Search for Items\nCheck Availability of Items\nAddItemstoShoppingCart\nEdit Items in the Shopping Cart\nremoveItemsfromtheShoppingCart\nCheckout theShopping Cart\nCheck Order Status\nBrowseOrderHistory\nDisplay Item Details\nLogout\nLeave asite",
+    "hue": 239
+  },
+  {
+    "id": "EXP14",
+    "number": 14,
+    "title": "Second-Hand Marketplace — ReNewMarket",
+    "slug": "renewmarket",
+    "folder": "exp14-renewmarket",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "ReNewMarket",
+    "tagline": "Good things deserve another chapter.",
+    "icon": "♻",
+    "label": "Listings",
+    "features": [
+      "Seller listings",
+      "Price offers",
+      "Logistics status",
+      "Category management"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Preloved City Bicycle",
+        "category": "Outdoors",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Preloved City Bicycle — a fictional outdoors listing for the ReNewMarket academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Oak Study Desk",
+        "category": "Furniture",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Oak Study Desk — a fictional furniture listing for the ReNewMarket academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Vintage Camera",
+        "category": "Electronics",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Vintage Camera — a fictional electronics listing for the ReNewMarket academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Denim Jacket",
+        "category": "Clothing",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Denim Jacket — a fictional clothing listing for the ReNewMarket academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "14",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "source": "14.ReNewMarket, a dynamic online marketplace, connects buyers and sellers of second-\nhand goods with ease. The website features a broad range of categories, including \nelectronics, furniture, clothing, and collectibles. Key functionalities include user \nregistration and login, a user-friendly listing creation tool for sellers, and advanced search \nand filtering options for buyers. Listings include detailed descriptions, photos, and pricing \ninformation, with the option to negotiate prices directly with sellers. Users can track their \ntransactions, leave feedback, and manage their favorite items and notifications. The \nplatform also provides secure payment options and a simple process for arranging item \npick-ups or deliveries. ReNewMarket aims to provide a reliable andconvenient space for \nexchanging pre-loved items while promoting sustainability\n➢UserManagement\nThesystemloginsuccessfullyand thenetwork connectionisworking.\n✓Theadministratorsetloginaccountandpassword.\n✓EditingUser\n✓DeletingUser\n➢CategoryManagement\n✓Addcategoryinformation.\n✓Deletecategoryinformation\n➢CommodityManagement\n✓EditingCommodity\n✓deletingCommodity\n➢OrderManagement\n✓Changelogisticsstatus:(Shipped/Received)\n✓DeleteOrder",
+    "hue": 276
+  },
+  {
+    "id": "EXP15",
+    "number": 15,
+    "title": "Online Toll Payment — EasyToll",
+    "slug": "easytoll",
+    "folder": "exp15-easytoll",
+    "category": "Finance",
+    "mode": "pass",
+    "brand": "EasyToll",
+    "tagline": "Less waiting. More moving.",
+    "icon": "↗",
+    "label": "Toll gates",
+    "features": [
+      "Wallet",
+      "Advance tickets",
+      "Pass approval",
+      "Pass verification"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Coastal Toll Gate",
+        "category": "Car",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Coastal Toll Gate — a fictional car listing for the EasyToll academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Garden Toll Plaza",
+        "category": "Bus",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Garden Toll Plaza — a fictional bus listing for the EasyToll academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Valley Toll Gate",
+        "category": "Truck",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Valley Toll Gate — a fictional truck listing for the EasyToll academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Ring Road Plaza",
+        "category": "Car",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Ring Road Plaza — a fictional car listing for the EasyToll academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "15",
+    "page": 13,
+    "pages": [
+      13,
+      14
+    ],
+    "source": "15.EasyToll, an advanced online toll payment system, simplifies the process of managing \ntoll fees for drivers. The website allows users to register and log in to access their toll \naccount, where they can view and pay outstanding toll charges from various toll gates. \nKey functionalities include real-time toll balance updates, automatic payment options, \nand the ability to add or update vehicle details. Users can view detailed transaction \nhistory, set up recurring payments for frequent routes, and receive notifications for \nupcoming toll charges. The platform also supports secure payment methods and \nprovides a user-friendly interface for managing toll accounts and reviewing payment \nsummaries. EasyToll aims to enhance the convenience of toll payments and reduce wait \ntimes at toll booths,Thiswebsite should help the user to pay toll in advance therefore \nnot to wait in queue while travelling.\nAdmin:\nLogin\nManageUser & Toll pass\nManageTolllogin\nApprovetollpass\nGenerateQRCode\nCreateTolldetails\nUser:\nRegister\nLogin\nAddMoney–eWallet\nBuyTolleTicket\nApplyNewtollpass\nRenewaltollpass\nApplyToll pass\nGetQR CodeforToll pass\nTollGateUser:\nLogin\nScanQR\nVerifytollpassID\nVerifyTollticket\nUpdatetolllocation",
+    "hue": 313
+  },
+  {
+    "id": "EXP16",
+    "number": 16,
+    "title": "Complaint Management — ComplainEase",
+    "slug": "complainease",
+    "folder": "exp16-complainease",
+    "category": "Services",
+    "mode": "cases",
+    "brand": "ComplainEase",
+    "tagline": "Your voice. A visible resolution.",
+    "icon": "☏",
+    "label": "Common issues",
+    "features": [
+      "Submit complaint",
+      "Officer assignment",
+      "Proof of work",
+      "Status tracking"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Streetlight repair",
+        "category": "Utilities",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Streetlight repair — a fictional utilities listing for the ComplainEase academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Water supply",
+        "category": "Water",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Water supply — a fictional water listing for the ComplainEase academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Road maintenance",
+        "category": "Roads",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Road maintenance — a fictional roads listing for the ComplainEase academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Sanitation request",
+        "category": "Sanitation",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Sanitation request — a fictional sanitation listing for the ComplainEase academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "16",
+    "page": 14,
+    "pages": [
+      14,
+      15
+    ],
+    "source": "16.ComplainEase is a robust online platform designed to streamline the process of \nregistering and managing complaints. The website allows users to easily submit \ncomplaints by filling out a detailed form that includes categories, descriptions, and \nsupporting documents. Key functionalities include user registration and login, \nreal-time complaint tracking, and status updates via email or SMS. Users can view \ntheir complaint history, receive feedback from resolution teams, and provide \nadditional information or evidence if needed. The platform also includes a search \nfeature for browsing common issues and solutions, and a dashboard for managing \nand resolving complaints efficiently. ComplainEase aims to improve \nresponsiveness and transparency in handling user grievances, ensuring a smooth \nand effective resolution process.\nUSER\nLogin\nRegister\nPostComplaint\nLocationMarkinGoogle Map\nViewcomplaintstatus\nFeedback\nGetAdminContactdetails\nOFFICER\nRegister\nLogin\nViewComplaint\nUpdatestatus\nUpdateproofofwork\nADMIN\nGenerateid&passwordforofficer\nTheadministrator hasfull-fledged rightsoverthe OES.\nCancreate/delete anaccount.\nCanviewtheaccounts.\nCanchangethepassword.\nCanhideany kindof featuresfromboth ofusers.\nInsert the information of available on OES.\nCanaccess alltheaccountsof the officer.",
+    "hue": 350
+  },
+  {
+    "id": "EXP17",
+    "number": 17,
+    "title": "Online Voting — VoteOnline",
+    "slug": "voteonline",
+    "folder": "exp17-voteonline",
+    "category": "Community",
+    "mode": "vote",
+    "brand": "VoteOnline",
+    "tagline": "A voice in our fictional campus.",
+    "icon": "✓",
+    "label": "Candidates",
+    "features": [
+      "Fictional voter list",
+      "Demo OTP",
+      "One vote per voter",
+      "Results"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Ananya Rao",
+        "category": "North Ward",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Ananya Rao — a fictional north ward listing for the VoteOnline academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Rohan Dev",
+        "category": "North Ward",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Rohan Dev — a fictional north ward listing for the VoteOnline academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Meera Shah",
+        "category": "South Ward",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Meera Shah — a fictional south ward listing for the VoteOnline academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Kavin Iyer",
+        "category": "South Ward",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Kavin Iyer — a fictional south ward listing for the VoteOnline academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "17",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "source": "17.VoteOnline is a secure and user-friendly e-voting platform designed to facilitate and streamline \nthe voting process for elections. The website allows registered voters to log in and cast their \nvotes remotely, ensuring a seamless voting experience. Key functionalities include user \nauthentication with multi-factor verification, a list of candidates or referendum options with \ndetailed information, and a simple, intuitive voting interface. Voters can view their voting \nhistory, receive confirmation of their submitted votes, and track the progress of the election in \nreal-time. The platform also provides secure data encryption to protect voter information and \nensures compliance with electoral regulations. VoteOnline aims to make the voting process \nmore accessible, efficient, and transparent, reducing barriers to participation and enhancing \nelection integrity\nAdmin\nCreateElectionCandidate\nAllocateelectionDatawithCandidate\nAllocateusertoelectionwards\nCreateVoterList\nImportVoterList\nView&update VoterList\nGetElectionResults\nUSER\nLoginusingVoter ID\nOTPLoginVerification\nGetOTP forVoting\nSelectCandidate\nSubmitVote",
+    "hue": 27
+  },
+  {
+    "id": "EXP18",
+    "number": 18,
+    "title": "Agriculture Marketplace — AgriMart",
+    "slug": "agrimart",
+    "folder": "exp18-agrimart",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "AgriMart",
+    "tagline": "Growing better, together.",
+    "icon": "❧",
+    "label": "Supplies",
+    "features": [
+      "Farmer inventory",
+      "Wallet",
+      "Orders",
+      "Shipping status"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Heritage Tomato Seeds",
+        "category": "Seeds",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Heritage Tomato Seeds — a fictional seeds listing for the AgriMart academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Organic Compost",
+        "category": "Fertilizers",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Organic Compost — a fictional fertilizers listing for the AgriMart academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Garden Tool Kit",
+        "category": "Tools",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Garden Tool Kit — a fictional tools listing for the AgriMart academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Drip Irrigation Set",
+        "category": "Equipment",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Drip Irrigation Set — a fictional equipment listing for the AgriMart academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "18",
+    "page": 16,
+    "pages": [
+      16,
+      17
+    ],
+    "source": "18.AgriMart is a comprehensive online platform catering to farmers and agricultural enthusiasts \nwith a wide range of products and services. The website features categories such as seeds, \nfertilizers, pesticides, farming equipment, and tools. Key functionalities include user \nregistration and login, product search and filtering, detailed product descriptions, and high-\nresolution images. Customers can place orders directly, track their shipments, and access \npersonalized recommendations based on their purchase history. The platform also offers secure \npayment options and customer support for product inquiries and order issues. AgriMart aims \nto provide a convenient and efficient shopping experience, helping users access essential \nagricultural supplies and resources with ease.’\nFARMER\nLogin\nRegister\nOTPVerification\nManageOrders\nUpdateorderStatus\nAddProduct\nUpdate/Deleteproduct\nUploadimages\nMySales\nUpdateShipping Status\nLogout\nPUBLIC\nRegister\nLogin\nOTPVerification\nMyAccount\nManageWalletBalance\nViewproductdetails\nSearchproduct\nAddtocart\nEdit/DeleteCart\nAdd/EditShippingAddress\nOrderProduct\nMyOrderstatus\nViewShipping Status",
+    "hue": 64
+  },
+  {
+    "id": "EXP19",
+    "number": 19,
+    "title": "Veterinary Consultation",
+    "slug": "veterinary",
+    "folder": "exp19-veterinary",
+    "category": "Health",
+    "mode": "cases",
+    "brand": "Kindred Vet",
+    "tagline": "Care starts with a conversation.",
+    "icon": "♧",
+    "label": "Clinics",
+    "features": [
+      "Farmer requests",
+      "Attachment metadata",
+      "Doctor responses",
+      "Subscriptions"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Government CVH North",
+        "category": "Free",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Government CVH North — a fictional free listing for the Kindred Vet academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Kindred Private Clinic",
+        "category": "Private",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Kindred Private Clinic — a fictional private listing for the Kindred Vet academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Government CVH South",
+        "category": "Free",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Government CVH South — a fictional free listing for the Kindred Vet academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Greenfield Vet",
+        "category": "Private",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Greenfield Vet — a fictional private listing for the Kindred Vet academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "19",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "source": "19.The farmer must send his animal’s signs and symptoms to doctor in video, audio, images \nortext form. The doctor will receive the farmer’s requests and respond. The user’s data \nwill beautomatically added to the database. The farmer has to register first and has to \nsubscribe. AfarmerwillfreelysubscribetoGovt.CVHs.Hemustpayafeeifhewill\nsubscribetotheprivateclinic’sdoctor.Therewillbetwopaymentgatewaysforthe\nfarmers,banktransfer(Doctorwillprovide his bank information while creating his \nprofile) and easy paisa. Doctors will providetheir bank details for payments. He can also \nprovide easy paisa account details. There will beimages of influenced animals with basic \ndiseases and their prescriptions. Based on recordeddata,thesystemcanperforman\nanalysisthatwhichdiseaseattacksonpetsmostlyinaspecificarea.\nUSER\nRegister\nLogin\nPostComplaint\nMyComplaintStatus\nViewVetcuredetails\nViewNews\nViewDoctor\nViewReport\nPostFeedback\nMakePayment\nMyProfile\nDoctor\nRegister\nLogin\nViewComplaint\nPostSolution\nManageCure\nManagenews\nViewuserDetails\nViewPaymentDetails\nFeedbackDetails",
+    "hue": 101
+  },
+  {
+    "id": "EXP20",
+    "number": 20,
+    "title": "Vehicle Rental — RentRide",
+    "slug": "rentride",
+    "folder": "exp20-rentride",
+    "category": "Travel",
+    "mode": "booking",
+    "brand": "RentRide",
+    "tagline": "The right ride for every plan.",
+    "icon": "🚗",
+    "label": "Vehicles",
+    "features": [
+      "Date availability",
+      "Vehicle filters",
+      "Booking approval",
+      "Rental history"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Swift City Hatchback",
+        "category": "Car",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Swift City Hatchback — a fictional car listing for the RentRide academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Terrain SUV",
+        "category": "SUV",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Terrain SUV — a fictional suv listing for the RentRide academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Cargo Mini Truck",
+        "category": "Truck",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Cargo Mini Truck — a fictional truck listing for the RentRide academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Family Sedan",
+        "category": "Car",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Family Sedan — a fictional car listing for the RentRide academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "20",
+    "page": 18,
+    "pages": [
+      18,
+      19
+    ],
+    "source": "20.RentRide is a modern online platform designed for convenient vehicle rentals. The website \nallows users to browse a diverse fleet of vehicles, including cars, trucks, and SUVs, based on \ntheir needs and preferences. Key functionalities include user registration and login, a search \nfeature with filters for vehicle type, rental duration, and location, and detailed vehicle \ndescriptions with photos and pricing. Customers can book vehicles, manage their reservations, \nand view rental history through a personalized dashboard. The platform supports secure \npayment methods, provides real-time booking confirmations, and offers 24/7 customer support \nfor any rental issues. RentRide aims to simplify the vehicle rental process, ensuring a seamless \nand efficient experience for users.KeyFeatures\nSearchModule\nAppointmentBooking\nCheck-informSubmitting\nAppointmentmanagement\nScheduleatiming\nPastappointmentManagement\nReviews\nAdmin\nLogin\nAddVehicle\nManageVehicledetails\nType,Price,Etc\nManageBookingdetails\nApproveUserBooking\nMy profile\nUser\nRegister\nLogin\nSearchVehicledetails\nSelectVehicle& Make Booking\nName,CustomerNo, Address,Type\nViewBooking Status\nMyprofile",
+    "hue": 138
+  },
+  {
+    "id": "EXP21",
+    "number": 21,
+    "title": "Online Job Recruitment",
+    "slug": "jobs",
+    "folder": "exp21-jobs",
+    "category": "Services",
+    "mode": "cases",
+    "brand": "Next Chapter",
+    "tagline": "Good work starts with a connection.",
+    "icon": "↗",
+    "label": "Vacancies",
+    "features": [
+      "Job filters",
+      "Saved vacancies",
+      "Applications",
+      "Director approval"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Frontend Developer",
+        "category": "Chennai",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Frontend Developer — a fictional chennai listing for the Next Chapter academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Data Analyst",
+        "category": "Bengaluru",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Data Analyst — a fictional bengaluru listing for the Next Chapter academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "UI Designer",
+        "category": "Remote",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "UI Designer — a fictional remote listing for the Next Chapter academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "QA Engineer",
+        "category": "Chennai",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "QA Engineer — a fictional chennai listing for the Next Chapter academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "21",
+    "page": 19,
+    "pages": [
+      19,
+      20
+    ],
+    "source": "21.Applicants can browse through the vacancy details that are posted and can apply for the \njobsonline. Director can browse through the posted resumes and select suitable \ncandidates. Filter,SearchfacilityforUseraccordingtotheirrequiredvacancy.Daily\nupdatesvianotificationsandother communication media. Sending resume saves effort, \ntime and cost of user All vacanciesare available on a single interface user can set privacy \nlevel for different companies’ user cansavejobs according to their needs.\nAdmin\nLogin\nApprovedirector\nViewUser\nView Report\nDirector\nRegister\nLogin\nPostVacancy\noImage,description,contact, etc\nViewVacancy\nViewappliedusers\nLogout\nUser\nRegister\nLogin\nSearchvacancy\nFilterbylocationwise, category.\nApplyforvacancy\nLogout",
+    "hue": 175
+  },
+  {
+    "id": "EXP22",
+    "number": 22,
+    "title": "Solid Waste Management",
+    "slug": "waste",
+    "folder": "exp22-waste",
+    "category": "Community",
+    "mode": "cases",
+    "brand": "Clean Circle",
+    "tagline": "A cleaner neighbourhood, together.",
+    "icon": "♻",
+    "label": "Collection bins",
+    "features": [
+      "Bin management",
+      "Driver route",
+      "Load updates",
+      "Public complaints"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Adyar Collection Point",
+        "category": "Organic",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Adyar Collection Point — a fictional organic listing for the Clean Circle academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Velachery Green Bin",
+        "category": "Recyclable",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Velachery Green Bin — a fictional recyclable listing for the Clean Circle academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "OMR Recycling",
+        "category": "Recyclable",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "OMR Recycling — a fictional recyclable listing for the Clean Circle academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Marina Collection Point",
+        "category": "Mixed",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Marina Collection Point — a fictional mixed listing for the Clean Circle academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "22",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "source": "22.Solid waste management can be broadly categorized as segregation, collection, and\ntransportation. Theserver will collect the data and store them only a database. This data \nwill beanalyzedanddisplayedontwodifferentdashboardsthatcanbeaccessedby\ntheworkforceandclients. Usingdata analytics, reports will be generated which can be \nmonitored by the adminsthroughthe admin dashboard. Basedon the data collected, \ngarbage trucks can be given routes generated throughvarious algorithms and google \nmaps API to efficiently route through all necessarygarbagebinsandfinally reach the\ndumping siteEffectiveusageof dustbins.\nAdministrator\n➢Login\n➢CreateGarbagebin\n➢Update/Deletegarbagebin\n➢Assignbest routefordrivers\n➢Managedriver\n➢ViewGarbageReport\n➢Viewcomplaintsfrompublic\nGeneralPublic\n➢Register\n➢Login\n➢Registercomplaint\n➢Mycomplaint&status\nDriver\n➢Login\n➢Checkdailywork updates\n➢Choosebest route\n➢Updategarbageload",
+    "hue": 212
+  },
+  {
+    "id": "EXP23",
+    "number": 23,
+    "title": "Blood Bank Management",
+    "slug": "blood-bank",
+    "folder": "exp23-blood-bank",
+    "category": "Health",
+    "mode": "cases",
+    "brand": "LifeLink",
+    "tagline": "A small act. A lasting difference.",
+    "icon": "♥",
+    "label": "Blood inventory",
+    "features": [
+      "Fictional donors",
+      "Blood group search",
+      "Bank inventory",
+      "Donation reports"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Adyar Sample Bank",
+        "category": "A+",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Adyar Sample Bank — a fictional a+ listing for the LifeLink academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "North Sample Bank",
+        "category": "B+",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "North Sample Bank — a fictional b+ listing for the LifeLink academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Central Sample Bank",
+        "category": "O+",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Central Sample Bank — a fictional o+ listing for the LifeLink academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Coastal Sample Bank",
+        "category": "AB+",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Coastal Sample Bank — a fictional ab+ listing for the LifeLink academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "23",
+    "page": 21,
+    "pages": [
+      21,
+      22
+    ],
+    "source": "23.Thebloodmanagementinformationsystemoffers functionality toquickaccesstodonor\nrecords collected from various parts of the country. It enables monitoring of the results \nandperformanceoftheblooddonationactivitysuchthatrelevantandmeasurable \nobjectivesoftheorganizationcanbe checked.Itprovidestomanagementtimely,\nconfidentialandsecuremedical reports that facilitates planning and decision making and \nhence improved medicalservice delivery. The reports generated by the system give \nanswers to most of the challengesmanagementfacesas farasblood donorrecords are\nconcerned.\nDONOR/USER\nLogin\nRegister\nPostDonarinformation\nMydonarinfo\nSearchdonardetails\nSearchBloodbankdetails\nLogout\nHOSPITAL\nRegister\nLogin\nPostBloodbank info\nUpdateblood groupstatus\nViewBloodbankdetails\nLogout",
+    "hue": 249
+  },
+  {
+    "id": "EXP24",
+    "number": 24,
+    "title": "Travel Agency — Wanderlust Travels",
+    "slug": "wanderlust",
+    "folder": "exp24-wanderlust",
+    "category": "Travel",
+    "mode": "booking",
+    "brand": "Wanderlust Travels",
+    "tagline": "Collect moments, not miles.",
+    "icon": "☀",
+    "label": "Trips",
+    "features": [
+      "Trip search",
+      "Accommodation",
+      "Food and routes",
+      "Booking management"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Kodaikanal Escape",
+        "category": "Mountains",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Kodaikanal Escape — a fictional mountains listing for the Wanderlust Travels academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Coorg Coffee Trail",
+        "category": "Nature",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Coorg Coffee Trail — a fictional nature listing for the Wanderlust Travels academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Mysore Heritage",
+        "category": "Heritage",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Mysore Heritage — a fictional heritage listing for the Wanderlust Travels academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Pondicherry Weekend",
+        "category": "Coast",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Pondicherry Weekend — a fictional coast listing for the Wanderlust Travels academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "24",
+    "page": 22,
+    "pages": [
+      22,
+      23
+    ],
+    "source": "24.Wanderlust Travels is a comprehensive online travel agency platform designed to make trip \nplanning and booking effortless. The website features a wide range of travel options, including \nflights, hotels, car rentals, and vacation packages. Key functionalities include user registration \nand login, a powerful search engine for finding travel deals, and detailed descriptions of \ndestinations, accommodations, and itineraries. Customers can book and manage their travel \narrangements, receive booking confirmations, and access travel guides and recommendations. \nThe platform also offers secure payment options, customer support for pre-and post-booking \nqueries, and personalized travel suggestions based on user preferences. Wanderlust Travels \naims to provide a seamless, one-stop solution for all travel needs, ensuring an enjoyable and \nhassle-free experience. Thesystem allows one to easily access the relevant information and \nmake necessary travelarrangements. Users can decide about places they want to visit and make \nbookings online fortraveland accommodation.\nUser\nAdmin\nUSER\nRegister\nLogin\nViewFoodDetails\nViewHostelDetails\nViewRouteDetails\nMyBookAccommodation\nADMIN\nLogin\nPostTourismDetails\nManageFoodDetails\nManageHotelDetails\nManageRouteDetails\nViewBookingDetails",
+    "hue": 286
+  },
+  {
+    "id": "EXP25",
+    "number": 25,
+    "title": "Roadside Breakdown Assistance",
+    "slug": "roadside",
+    "folder": "exp25-roadside",
+    "category": "Services",
+    "mode": "cases",
+    "brand": "Roadside Buddy",
+    "tagline": "A helping hand, down the road.",
+    "icon": "⚒",
+    "label": "Mechanics",
+    "features": [
+      "Mechanic search",
+      "Business approval",
+      "Assistance requests",
+      "Feedback"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Arun Auto Care",
+        "category": "Adyar",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Arun Auto Care — a fictional adyar listing for the Roadside Buddy academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Coastal Motor Works",
+        "category": "OMR",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Coastal Motor Works — a fictional omr listing for the Roadside Buddy academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Greenway Garage",
+        "category": "Velachery",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Greenway Garage — a fictional velachery listing for the Roadside Buddy academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "City Wheel Service",
+        "category": "Anna Nagar",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "City Wheel Service — a fictional anna nagar listing for the Roadside Buddy academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "25",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "source": "25.OnRoadVehicleBreakdownAssistancesystemcansearchforlistofmechanicsatany\nlocationor the nearby locationswhichwillhelptheminanunexpected situationraised\nbythemechanical issues of their vehicles. Only the licensed mechanics can get listed \nhere while thesearch. Road assistance for car and there isavailable mechanic who can \ncome and repair themechanicalissues in theuser’svehicle.\nUsermodules:\nRegister\nLogin\nSearchMechanicDetails\nViewGoogle geolocation\nPostfeedback\nMyprofile\nAdminmodules:\nProvideApproval\nMechanicmodules:\nRegister\nLogin\nPost Business\nManageBusiness\nViewfeedback",
+    "hue": 323
+  },
+  {
+    "id": "EXP26",
+    "number": 26,
+    "title": "Traffic Police Challan Management",
+    "slug": "challan",
+    "folder": "exp26-challan",
+    "category": "Community",
+    "mode": "cases",
+    "brand": "Traffic Desk",
+    "tagline": "Clear records. Safer streets.",
+    "icon": "⚑",
+    "label": "Rules",
+    "features": [
+      "Fictional cases",
+      "Proof metadata",
+      "Fine receipts",
+      "Daily reports"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Helmet violation",
+        "category": "Safety",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Helmet violation — a fictional safety listing for the Traffic Desk academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Signal violation",
+        "category": "Signals",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Signal violation — a fictional signals listing for the Traffic Desk academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Parking violation",
+        "category": "Parking",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Parking violation — a fictional parking listing for the Traffic Desk academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Speed violation",
+        "category": "Speed",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Speed violation — a fictional speed listing for the Traffic Desk academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "26",
+    "page": 24,
+    "pages": [
+      24,
+      25
+    ],
+    "source": "26.This web site provides traffic police to create online FIR with the vehicle owner and \nvehiclephoto as proof, user side receives the fir receipt with fine details. In this \napplication, user canto see the penalty imposed on the owner of the vehicle. By doing \nthis the tendency of gettingawaywithoutbeingpenalizedwillreduce andsubsequently\nthe traffic violationwillbemitigated without industrious use of human resources. \nTraffic Squad: Penalty Collection &management-basedwebApplication\nUser\nRegister\nLogin\nViewChallan\nViewCaseFiled\nPolice\nLogin\nRules\nCreateCase\nUploadproofphoto\nManage\nLiveinformation oftrafficreport–Newupdates\nGooglemap traffic–Link\nAdmin\nManagePoliceLogin\nViewDailyReport",
+    "hue": 0
+  },
+  {
+    "id": "EXP27",
+    "number": 27,
+    "title": "Online Bus Pass",
+    "slug": "bus-pass",
+    "folder": "exp27-bus-pass",
+    "category": "Travel",
+    "mode": "pass",
+    "brand": "Campus Commute",
+    "tagline": "Your everyday journey, simplified.",
+    "icon": "▣",
+    "label": "Routes",
+    "features": [
+      "Pass applications",
+      "Monthly renewal",
+      "Wallet",
+      "Conductor verification"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Adyar to SIMATS",
+        "category": "Student",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Adyar to SIMATS — a fictional student listing for the Campus Commute academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Tambaram to SIMATS",
+        "category": "Route",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Tambaram to SIMATS — a fictional route listing for the Campus Commute academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Velachery to SIMATS",
+        "category": "Student",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Velachery to SIMATS — a fictional student listing for the Campus Commute academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Central to SIMATS",
+        "category": "Route",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Central to SIMATS — a fictional route listing for the Campus Commute academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "27",
+    "page": 25,
+    "pages": [
+      25,
+      26
+    ],
+    "source": "27.The bus pass will differ for different types of users. In this bus pass, all the required \ndetailssuch as candidate’s name, address, date of birth, mail id, name of the school, \nvalidity period,the amount paid (free for government school students) and photocopy \nof the candidate areprovided. Instead of school details, working organization details \nwill be provided in route buspass.Therenewalprocesscanbedonemonthlyasperuser\nwish.Basedonthatrenewalperiodamountwill bededucted.\nAdmin:\nLogin\nManagestudent& routepass\nManageconductorlogin\nApprovebuspass\nGenerateQRCode\nCreateBusdetails\nCreateRouteInformation\noFrom to, Time, RouteStopping\nUser:\nRegister\nLogin\nAddMoney–eWallet\nBuyBuseTicket\nApplyNewbuspass\nRenewalbuspass\nApplyStudent&Routepass\nGetQR CodeforBus pass\nCalculateexpectedtimetoreach\nConductor:\nLogin\nScanQR\nVerifybuspassID\nVerifyBusticket\nUpdatebuslocation",
+    "hue": 37
+  },
+  {
+    "id": "EXP28",
+    "number": 28,
+    "title": "Artist Portfolio — ArtistryHub",
+    "slug": "artistryhub",
+    "folder": "exp28-artistryhub",
+    "category": "Creative",
+    "mode": "content",
+    "brand": "ArtistryHub",
+    "tagline": "The world, through Emily's eyes.",
+    "icon": "◈",
+    "label": "Artworks",
+    "features": [
+      "Artwork gallery",
+      "Biography",
+      "Print store",
+      "Newsletter"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Quiet Horizons",
+        "category": "Landscape",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Quiet Horizons — a fictional landscape listing for the ArtistryHub academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Terracotta Morning",
+        "category": "Abstract",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Terracotta Morning — a fictional abstract listing for the ArtistryHub academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Monsoon Study",
+        "category": "Study",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Monsoon Study — a fictional study listing for the ArtistryHub academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "The Blue Hour",
+        "category": "Portrait",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "The Blue Hour — a fictional portrait listing for the ArtistryHub academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "28",
+    "page": 26,
+    "pages": [
+      26,
+      27
+    ],
+    "source": "28.ArtistryHub is a beautifully designed portfolio website dedicated to showcasing the work and \nachievements of renowned artist Emily Harris. The website serves as a digital tribute and a \ncomprehensive resource for fans and admirers. Key components include a visually stunning \nhomepage featuring a gallery of Emily's most notable artworks, a detailed biography section \nhighlighting her career milestones and exhibitions, and an interactive portfolio where users can view \nhigh-resolution images and descriptions of her artworks. The site also includes a blog for updates \non recent projects and upcoming events, a store for purchasing prints and merchandise, and a \ncontact page for booking inquiries and fan messages. ArtistryHub aims to celebrate Emily's artistic \njourney and provide an engaging experience for her audience.\n1.Homepage:\n•Create an engaging homepage that introduces visitors to the artist and sets the tone for the website.\n•Include an attractive banner image or artwork representative of the artist's work.\n2. About the Artist:\n•Develop a page that offers a detailed biography or profile of the artist, including background information, \ninfluences, and artistic journey.\n•Include a high-quality photo or portrait of the artist.\n3. Portfolio:\n•Organize and present the artist's work, such as artworks, music albums, or written pieces.\n•For visual artists, provide galleries with high-resolution images and descriptions of individual pieces.\n•For musicians, feature audio clips or embed music players for sample tracks.\n•For writers, display excerpts from books, articles, or poems.\n4.Discography or Bibliography:\n•Create a comprehensive list of the artist's works, including albums, songs, books, articles, or any other \nsignificant creations.\n•Include publication or release dates and ISBN/UPC details, if applicable.\n5.Media Gallery:\n•Incorporate a media section with photos, videos, interviews, or media coverage related to the artist.\n•If available, embed YouTube or Vimeo videos of live performances or interviews.\n6.News and Updates (Optional):\n•Include a section for the latest news, updates, or events related to the artist, with announcements of \nupcoming exhibitions, concerts, or book releases.\n7.Interactive Features (Optional):\n•Integrate social media feeds, allowing visitors to follow the artist's official profiles.\n•Enable users to subscribe to newsletters for artist updates.",
+    "hue": 74
+  },
+  {
+    "id": "EXP29",
+    "number": 29,
+    "title": "Event Registration Website",
+    "slug": "event",
+    "folder": "exp29-event",
+    "category": "Community",
+    "mode": "booking",
+    "brand": "Confluence 2026",
+    "tagline": "Ideas meet. Possibilities begin.",
+    "icon": "✳",
+    "label": "Sessions",
+    "features": [
+      "Speaker profiles",
+      "Event schedule",
+      "Venue",
+      "Registration"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Building for the Web",
+        "category": "Keynote",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Building for the Web — a fictional keynote listing for the Confluence 2026 academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Design That Includes",
+        "category": "Design",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Design That Includes — a fictional design listing for the Confluence 2026 academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "The Future of Learning",
+        "category": "Panel",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "The Future of Learning — a fictional panel listing for the Confluence 2026 academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Creative Coding Lab",
+        "category": "Workshop",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Creative Coding Lab — a fictional workshop listing for the Confluence 2026 academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "28",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "source": "28.The layout of the event page will be simple. The header section will contain the names and \nimages of the different speakers with links, the event venue, and the schedule. You must also \ninclude a section that describes the purpose of the event –what the event is for and which \ncategory of audience it aims to target. Section the page into smaller chunks to make it look \nneat. Choose the right font style, font color, and background color for individual sections on \nthe page. Also, make sure to add a registrationbutton so that interested people can register \nfor the event.",
+    "hue": 111
+  },
+  {
+    "id": "EXP30",
+    "number": 30,
+    "title": "Journal Publication — IJSSE",
+    "slug": "ijsse",
+    "folder": "exp30-ijsse",
+    "category": "Learning",
+    "mode": "cases",
+    "brand": "IJSSE Academic Demo",
+    "tagline": "A space for ideas that move us forward.",
+    "icon": "¶",
+    "label": "Articles",
+    "features": [
+      "Manuscripts",
+      "Peer review",
+      "Editorial decisions",
+      "Author resources"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Accessible Campus Interfaces",
+        "category": "Current issue",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Accessible Campus Interfaces — a fictional current issue listing for the IJSSE Academic Demo academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Solar Microgrids",
+        "category": "Archive",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Solar Microgrids — a fictional archive listing for the IJSSE Academic Demo academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Learning with Visualisation",
+        "category": "Most viewed",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Learning with Visualisation — a fictional most viewed listing for the IJSSE Academic Demo academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Circular Cities",
+        "category": "About to print",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Circular Cities — a fictional about to print listing for the IJSSE Academic Demo academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "30",
+    "page": 28,
+    "pages": [
+      28,
+      29
+    ],
+    "source": "30.The International Journal of Scientific and Social Excellence (IJSSE) has launched a \nprofessional and user-friendly website to facilitate its operations as a Scopus-indexed journal \npublisher. The website features an \"About Journal\" section detailing its mission, scope, and the \nsignificance of its print ISSN 2395-1443 and online ISSN 2395-1451. Key menus include \"For \nAuthors,\" where contributors can submit manuscripts, track submission status, and access \nguidelines; \"For Reviewers,\" which provides tools for reviewing submissions and accessing \nreviewer resources; and \"For Editors,\" offering a dashboard for managing submissions, \ncoordinating peer reviews, and overseeing publication processes. The site also includes registration \noptions for authors, reviewers, and editors, ensuring seamless communication and workflow. The \nIJSSE website aims to support a streamlined submission and review process, enhancing the \nefficiency and transparency of academic publishing.\n1) Home page \n2) About Journal \n3) Publication ethics \n4) Editorial board \ni) Editor registration\nii) Editor Login\niii) Editorial committee\niv) Editor responsibility\n5) Reviewers \ni) Reviewer registration\nii) Reviewers login\niii) List of reviewers for specific article.\n6) Author\ni) Author registration\nii) Author login\niii) List of papers under an author \niv) Author Instructions\nv) Publication charge\nvi) Article Template\nvii) Copyrights form Template\nviii) Author guidelines\n7)Articles\ni) Current issue\nii) Archive\niii) Most viewed articles\niv) Most cited articles\nv) About to print articles\n8) Call for paper\ni) Submit Manuscript\nii) Indexed List\niii) Subscribe Newsletters\niv) View feedback\n9) Contact Us.",
+    "hue": 148
+  },
+  {
+    "id": "EXP31",
+    "number": 31,
+    "title": "Dairy Farm — Ko-Matha",
+    "slug": "ko-matha",
+    "folder": "exp31-ko-matha",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "Ko-Matha",
+    "tagline": "Fresh from our fictional farm.",
+    "icon": "❧",
+    "label": "Dairy products",
+    "features": [
+      "Online orders",
+      "Stock reports",
+      "Vendor records",
+      "Cow maintenance"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Fresh Milk",
+        "category": "Milk",
+        "price": 60,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Fresh Milk — a fictional milk listing for the Ko-Matha academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Farm Curd",
+        "category": "Curd",
+        "price": 45,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Farm Curd — a fictional curd listing for the Ko-Matha academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Golden Ghee",
+        "category": "Ghee",
+        "price": 680,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Golden Ghee — a fictional ghee listing for the Ko-Matha academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Sweet Cova",
+        "category": "Sweets",
+        "price": 220,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Sweet Cova — a fictional sweets listing for the Ko-Matha academic demonstration.",
+        "rating": 4.6
+      },
+      {
+        "id": "item-5",
+        "name": "Cultured Butter",
+        "category": "Butter",
+        "price": 180,
+        "stock": 12,
+        "location": "Adyar",
+        "description": "Cultured Butter — a fictional butter listing for the Ko-Matha academic demonstration.",
+        "rating": 4.7
+      }
+    ],
+    "printed": "31",
+    "page": 29,
+    "pages": [
+      29
+    ],
+    "source": "31.Ko-Matha Dairy Farm, a pioneering smart dairy operation, has launched an innovative website \nto enhance customer engagement and streamline its services. The website showcases the farm’s \ncommitment to high-quality products sourced from Indian A1 cow holders,known for their \nsuperior milk. Key features include a \"Products\" section where customers can purchase fresh milk, \ncurd, cova-sweet, butter, and ghee, with detailed descriptions and pricing. The \"Farm\" section \nprovides insights into the farm’s practices, the benefits of A1 cow milk, and the technology used to \nensure quality. Additional menus include \"Order Online\" for convenient delivery scheduling, \n\"About Us\" for farm history and values, and \"Contact\" for customer inquiries and support. Ko-\nMatha Dairy Farm’s website aims to connect customers with wholesome dairy products while \npromoting transparency and convenience.The website should contain home page, about us, contact \nus and so on with following data maintenance: \nThey are\n1)The administrator detail\nRegistration form\nLogin form\n2)Stock detail\nStock entry form\nDaily report\nMonthly report\nYearly report\n3)Customer detail\nPurchase detail\nCustomer online purchase order\n4)Milk vender detail\nVendors information \nCow detail maintenance",
+    "hue": 185
+  },
+  {
+    "id": "EXP32",
+    "number": 32,
+    "title": "Laptop Sales and Service — Ram Infotech",
+    "slug": "ram-infotech",
+    "folder": "exp32-ram-infotech",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "Ram Infotech",
+    "tagline": "Better tools. Dependable support.",
+    "icon": "▱",
+    "label": "Laptops",
+    "features": [
+      "Laptop store",
+      "Service requests",
+      "Rental agreements",
+      "Stock maintenance"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Atlas Pro 14",
+        "category": "Professional",
+        "price": 24999,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Atlas Pro 14 — a fictional professional listing for the Ram Infotech academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Nova Student 15",
+        "category": "Student",
+        "price": 58999,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Nova Student 15 — a fictional student listing for the Ram Infotech academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Studio Creator 16",
+        "category": "Creator",
+        "price": 3499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Studio Creator 16 — a fictional creator listing for the Ram Infotech academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Everyday Air 13",
+        "category": "Everyday",
+        "price": 18999,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Everyday Air 13 — a fictional everyday listing for the Ram Infotech academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "32",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "source": "32. Ram Infotech has launched a comprehensive website to cater to both laptop sales and service \nneeds. The website features a user-friendly interface for browsing and purchasing a wide range of \nlaptops, including detailed specifications, customer reviews, and competitive pricing. Key \nfunctionalities include an \"Online Store\" section for selecting and buying laptops, a \"Service \nCenter\" section where customers can schedule repairs, track service status, and access \ntroubleshooting guides. The site also includes an\"About Us\" page detailing the company’s history \nand mission, a \"Contact\" page for customer support, and a \"FAQ\" section addressing common \nqueries. Ram Infotech’s website aims to provide a seamless experience for both acquiring and \nmaintaining laptops, ensuring quality service and customer satisfaction.\n1) Admin detail –Login, Registration form detail\n2) Sales –Laptop detail, model, configuration \n3) Services –Laptop services information\n4) Customer information –Purchase / Services \n5) Laptop renal agreement detail\n6) Stock maintenance in the shop.",
+    "hue": 222
+  },
+  {
+    "id": "EXP33",
+    "number": 33,
+    "title": "KodaikanalEats / Restaurant and Room Booking",
+    "slug": "kodaikanaleats",
+    "folder": "exp33-kodaikanaleats",
+    "category": "Travel",
+    "mode": "booking",
+    "brand": "KodaikanalEats",
+    "tagline": "Good food. Misty views. Stay awhile.",
+    "icon": "♨",
+    "label": "Dining and stays",
+    "features": [
+      "Dining reservations",
+      "Room availability",
+      "Seasonal stays",
+      "Room staff"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Pinewood Table",
+        "category": "Restaurant",
+        "price": 1200,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Pinewood Table — a fictional restaurant listing for the KodaikanalEats academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Lakeview Kitchen",
+        "category": "Restaurant",
+        "price": 2400,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Lakeview Kitchen — a fictional restaurant listing for the KodaikanalEats academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Single Hill Room",
+        "category": "Single room",
+        "price": 3800,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Single Hill Room — a fictional single room listing for the KodaikanalEats academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Double Valley Room",
+        "category": "Double room",
+        "price": 6500,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Double Valley Room — a fictional double room listing for the KodaikanalEats academic demonstration.",
+        "rating": 4.6
+      },
+      {
+        "id": "item-5",
+        "name": "Deluxe Mist Suite",
+        "category": "Deluxe room",
+        "price": 1200,
+        "stock": 12,
+        "location": "Adyar",
+        "description": "Deluxe Mist Suite — a fictional deluxe room listing for the KodaikanalEats academic demonstration.",
+        "rating": 4.7
+      }
+    ],
+    "printed": "33",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "source": "33. KodaikanalEats is a sleek online platform designed to simplify restaurant bookings in the picturesque \ntown of Kodaikanal. The website features an extensive list of local dining options, including fine dining, \ncasual eateries, and specialty restaurants. Keyfunctionalities include a search and filter system to find \nrestaurants based on cuisine, location, and ratings, as well as an easy-to-use booking system where users can \nreserve tables, select dining times, and view available slots. The site also provides detailed restaurant profiles \nwith menus, photos, and customer reviews. Additional features include real-time booking confirmations, a \n\"Special Offers\" section for exclusive deals, and a \"Contact Us\" page for customer support and inquiries. \nKodaikanalEats aims to enhance the dining experience by providing a convenient and efficient way to explore \nand book restaurants in Kodaikanal.\n1) Admin detail –Login, Registration form detail\n2) Suit detail and cost–single room, double rooms, deluxe rooms\n3) Rooms availability detail\n4) Online booking system detail-Seasonal / Non-seasonal\n5) Room boys availably detail\n6) Customer detail",
+    "hue": 259
+  },
+  {
+    "id": "EXP34",
+    "number": 34,
+    "title": "Tuition Centre — LearnWell",
+    "slug": "learnwell",
+    "folder": "exp34-learnwell",
+    "category": "Learning",
+    "mode": "cases",
+    "brand": "LearnWell",
+    "tagline": "A little guidance. A world of growth.",
+    "icon": "✎",
+    "label": "Subjects",
+    "features": [
+      "Course enrolment",
+      "Fees",
+      "Announcements",
+      "Maintenance requests"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Mathematics",
+        "category": "Online",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Mathematics — a fictional online listing for the LearnWell academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Physics",
+        "category": "Offline",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Physics — a fictional offline listing for the LearnWell academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Computer Science",
+        "category": "Online",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Computer Science — a fictional online listing for the LearnWell academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "English",
+        "category": "Offline",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "English — a fictional offline listing for the LearnWell academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "34",
+    "page": 31,
+    "pages": [
+      31,
+      32
+    ],
+    "source": "34. LearnWell Tuition Centre has launched a dedicated website to streamline announcements and \nmanage various aspects of its operations. The website features a central \"Announcements\" section \nwhere updates on class schedules, special events, and important notices are posted regularly. Key \nfunctionalities include a \"Course Offerings\" page detailing available subjects, schedules, and fees, \nand an \"Online Registration\" system for enrolling in classes and managing student profiles. There \nis also a \"Maintenance Requests\" section where students and parents can report issues or request \nassistance. The site includes an \"About Us\" page providing information about the centre's mission \nand teaching staff, and a \"Contact\" page for inquiries and support. LearnWell’s website aims to \nkeep the community informed and facilitate efficient management of tuition services.\n1) Admin detail –Login, Registration form detail\n2) Teachers detail –Login, Registration form detail\n3) Students detail –Fees paid detail, Report-monthly and yearly, feedback report\n4) Subjects detail –Duration, fees detail.\n5) Online / Offline tuition availability.     ",
+    "hue": 296
+  },
+  {
+    "id": "EXP35",
+    "number": 35,
+    "title": "Bus Pass Management",
+    "slug": "bus-pass-management",
+    "folder": "exp35-bus-pass-management",
+    "category": "Travel",
+    "mode": "pass",
+    "brand": "Route & Ready",
+    "tagline": "Make the everyday journey easier.",
+    "icon": "▣",
+    "label": "Routes",
+    "features": [
+      "Student and route passes",
+      "Renewals",
+      "QR simulation",
+      "Arrival estimate"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "North Campus Route",
+        "category": "Student",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "North Campus Route — a fictional student listing for the Route & Ready academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "South Campus Route",
+        "category": "Route",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "South Campus Route — a fictional route listing for the Route & Ready academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "City Loop",
+        "category": "Student",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "City Loop — a fictional student listing for the Route & Ready academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Station Connector",
+        "category": "Route",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Station Connector — a fictional route listing for the Route & Ready academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "35",
+    "page": 32,
+    "pages": [
+      32,
+      33
+    ],
+    "source": "35. The bus pass will differ for different types of users. In this bus pass, all the required details such \nas candidate’s name, address, date of birth, mail id, name of the school, validity period, the amount \npaid (free for government school students) and photocopy of the candidate are provided. Instead of \nschool details, working organization details will be provided in route bus pass. The renewal process \ncan be done monthly as per user wish. Based on that renewal period amount will be deducted. \n1.Admin: \n• Login \n• Manage student & route pass \n• Manage conductor login \n• Approve bus pass \n• Generate QR Code \n• Create Bus details \n• Create Route Information \no From to , Time , Route Stopping \n2.User: \n• Register \n• Login \n• Add Money –eWallet \n• Buy Bus eTicket \n• Apply New bus pass \n• Renewal bus pass \n• Apply Student & Route pass \n• Get QR Code for Bus pass \n• Calculate expected time to reach \n3.Conductor : \no Login o Scan QR \no Verify bus pass ID\no Verify Bus ticket \no Update bus location",
+    "hue": 333
+  },
+  {
+    "id": "EXP36",
+    "number": 36,
+    "title": "Online Teaching — EduConnect",
+    "slug": "educonnect",
+    "folder": "exp36-educonnect",
+    "category": "Learning",
+    "mode": "cases",
+    "brand": "EduConnect",
+    "tagline": "Learn something that opens doors.",
+    "icon": "▤",
+    "label": "Courses",
+    "features": [
+      "Course enrolment",
+      "Assignments",
+      "Quizzes",
+      "Teacher dashboard"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Web Foundations",
+        "category": "Technology",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Web Foundations — a fictional technology listing for the EduConnect academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Python Essentials",
+        "category": "Programming",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Python Essentials — a fictional programming listing for the EduConnect academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Visual Design",
+        "category": "Design",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Visual Design — a fictional design listing for the EduConnect academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Data Fundamentals",
+        "category": "Data",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Data Fundamentals — a fictional data listing for the EduConnect academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "36",
+    "page": 33,
+    "pages": [
+      33
+    ],
+    "source": "36.EduConnect is an innovative online teaching platform designed to facilitate interactive and \nflexible learning experiences. The website offers a range of functionalities, including a \"Course \nCatalog\" where students can browse and enroll in various subjects and programs. Key features \ninclude live video classes, pre-recorded lectures, and downloadable study materials. The platform \nalso includes interactive tools such as discussion forums, quizzes, and assignments to engage \nstudents. Teachers can create and manage courses, track student progress, and provide feedback \nthrough a dedicated instructor dashboard. Additional features include user registration and login, \nsecure payment options for course fees, and a \"Support\" section for technical help and inquiries. \nEduConnect aims to provide a comprehensive and accessible learning environment for students and \neducators alike.\ni. Student Registration\nii. Teacher Registration\niii. Subject Allocation / Registration\niv. Time Management",
+    "hue": 10
+  },
+  {
+    "id": "EXP37",
+    "number": 37,
+    "title": "Online Bookstore — BookHaven",
+    "slug": "bookhaven",
+    "folder": "exp37-bookhaven",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "BookHaven",
+    "tagline": "A good day begins with a good book.",
+    "icon": "▥",
+    "label": "Books",
+    "features": [
+      "Book filters",
+      "Cart",
+      "Reviews",
+      "Book recommendations"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "The Quiet Atlas",
+        "category": "Fiction",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "The Quiet Atlas — a fictional fiction listing for the BookHaven academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Practical JavaScript",
+        "category": "Academic",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Practical JavaScript — a fictional academic listing for the BookHaven academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Wild Garden",
+        "category": "Non-fiction",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Wild Garden — a fictional non-fiction listing for the BookHaven academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Stories of Chennai",
+        "category": "Fiction",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Stories of Chennai — a fictional fiction listing for the BookHaven academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "36",
+    "page": 34,
+    "pages": [
+      34
+    ],
+    "source": "36.\"BookHaven\" is a sleek and user-friendly online bookstore designed to provide a comprehensive and \nenjoyable shopping experience for book lovers. The homepage features a visually appealing layout with \ncurated book collections, bestsellers, and new arrivals.Key static pages include an \"About Us\" section that \nshares the bookstore’s mission and values, a \"Contact Us\" page with customer service details, and a \"FAQ\" \nsection addressing common inquiries about orders, shipping, and returns. The website also offers a detailed \n\"Category\" page where users can browse books by genre, author, or publication date. Each book listing \nprovides a cover image, synopsis, customer reviews, and purchase options. The \"Cart\" and \"Checkout\" \npages are designed for easy navigation, ensuring a smooth and secure purchasing process. Additionally, a \n\"Blog\" page shares book recommendations, reviews, and author interviews, enhancing the overall customer \nexperience.\n1.Home Page: Features a visually appealing layout with a carousel of bestsellers and new arrivals, \nsearch functionality, and highlighted categories like fiction, non-fiction, and academic books.\n2.About Us Page: Provides an overview of BookHaven’s mission, history, and values, introducing \nthe team and detailing the store’s commitment to quality and customer satisfaction.\n3.Catalog Page: Showcases a well-organized listing of books with filters for genres, authors, and \nprice ranges, allowing users to browse and discover titles easily.\n4.Contact Us Page: Includes a contact form, email address, phone number, and physical store \nlocation (if applicable), enabling customers to get in touch with the bookstore for support or \ninquiries.\n5.FAQs Page: Offers answers to common questions regarding shipping, returns, and account \nmanagement, helping customers find information quickly.\n6.Privacy Policy Page: Details the store’s policies on data collection, usage, and protection, \nensuring transparency and compliance with privacy regulations.\nBookHaven aims to provide a seamless and engaging online shopping experience, with easy navigation \nand clear information for customers.",
+    "hue": 47
+  },
+  {
+    "id": "EXP38",
+    "number": 38,
+    "title": "MyProfessionalShowcase",
+    "slug": "professional-showcase",
+    "folder": "exp38-professional-showcase",
+    "category": "Creative",
+    "mode": "content",
+    "brand": "MyProfessionalShowcase",
+    "tagline": "Curious mind. Thoughtful work.",
+    "icon": "◇",
+    "label": "Projects",
+    "features": [
+      "Project case studies",
+      "Resume download",
+      "Career timeline",
+      "Contact"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Accessible Campus Portal",
+        "category": "Web",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Accessible Campus Portal — a fictional web listing for the MyProfessionalShowcase academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Local Food Finder",
+        "category": "Mobile",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Local Food Finder — a fictional mobile listing for the MyProfessionalShowcase academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Library Analytics",
+        "category": "Data",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Library Analytics — a fictional data listing for the MyProfessionalShowcase academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Sustainable Design System",
+        "category": "Design",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Sustainable Design System — a fictional design listing for the MyProfessionalShowcase academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "37",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "source": "37.A professional creates \"MyProfessionalShowcase,\" a polished portfolio website to effectively present \ntheir skills, projects, and resume to potential employers and clients. The homepage features a sleek design \nwith a personal introduction and an overview ofkey strengths and expertise. Visitors can navigate through \nsections highlighting completed projects, each accompanied by detailed descriptions, images, and links to \nlive demos or source code. The website also includes a dedicated resume page, offering a downloadable \nversion and an interactive timeline of the professional’s career milestones. Testimonials from clients or \ncolleagues are showcased to build credibility, while a contact form allows potential employers or clients to \neasily reach out for inquiries or collaboration. Additionally, the website is optimized for mobile devices, \nensuring a seamless user experience across all platforms.\nHome Page: A dynamic introduction with a professional photo and a brief overview of my expertise, \nhighlighting my key skills and career objectives.\n1.About Me Page: An in-depth section detailing my background, education, and professional \njourney, including testimonials from previous clients or colleagues.\n2.Portfolio Page:A gallery of my notable projects with descriptions, technologies used, and links \nto live demos or case studies, showcasing my work and capabilities.\n3.Resume Page:A downloadable and interactive version of my resume, providing a comprehensive \nview of my work history, skills, and achievements.\n4.Blog Page:A space for sharing insights, articles, or updates related to my field, demonstrating \nthought leadership and engagement with industry trends.\n5.Contact Page: A contact form, email address, and links to professional social media profiles, \nmaking it easy for potential employers or clients to reach out.\nMyProfessionalShowcase aims to provide a comprehensive and engaging representation of my \nprofessional identity, offering valuable insights into my skills and experience.",
+    "hue": 84
+  },
+  {
+    "id": "EXP39",
+    "number": 39,
+    "title": "Gourmet Haven",
+    "slug": "gourmet-haven",
+    "folder": "exp39-gourmet-haven",
+    "category": "Creative",
+    "mode": "booking",
+    "brand": "Gourmet Haven",
+    "tagline": "An evening worth savouring.",
+    "icon": "♨",
+    "label": "Menu",
+    "features": [
+      "Interactive menu",
+      "Table reservations",
+      "Chef story",
+      "Offers and reviews"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Roasted Pumpkin Soup",
+        "category": "Appetizers",
+        "price": 260,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Roasted Pumpkin Soup — a fictional appetizers listing for the Gourmet Haven academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Garden Risotto",
+        "category": "Main courses",
+        "price": 580,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Garden Risotto — a fictional main courses listing for the Gourmet Haven academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Dark Chocolate Delice",
+        "category": "Desserts",
+        "price": 320,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Dark Chocolate Delice — a fictional desserts listing for the Gourmet Haven academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Citrus Salad",
+        "category": "Appetizers",
+        "price": 280,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Citrus Salad — a fictional appetizers listing for the Gourmet Haven academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "38",
+    "page": 36,
+    "pages": [
+      36
+    ],
+    "source": "38. Gourmet Havenis a sophisticated website designed to enhance the digital presence of a fictional \nfine dining restaurant. It features a striking home page with a rotating carousel of the restaurant's \nambiance and signature dishes, an interactive menu showcasing detaileddescriptions and pricing, \nand an easy-to-use reservation system for booking tables. The site includes an \"About Us\" page \ndetailing the restaurant's history and culinary team, a gallery of high-resolution images capturing \nthe dining experience, and a contact page with essential information and a contact form. Gourmet \nHaven aims to provide an engaging and user-friendly online experience, allowing potential \ncustomers to explore offerings, make reservations, and connect with the restaurant effortlessly\n1.Homepage:\n•Create an engaging and visually appealing homepage that reflects the restaurant's theme and \natmosphere.\n•Include high-quality images of the restaurant's interior, exterior, and signature dishes.\n•Add a welcoming message or tagline to set the tone for the dining experience.\n2.Menu Pages:\n•Develop dedicated pages for the restaurant's menu items, organized by categories (appetizers, main \ncourses, desserts, etc.).\n•Include detailed descriptions of each dish, including ingredients and pricing.\n•Integrate high-resolution images of the dishes to entice visitors.\n•Implement navigation to easily switch between different menu categories.\n3.Contact Information:\n•Create a separate page for contact information, including the restaurant's physical address, phone \nnumber, and email address.\n•Embed an interactive Google Maps widget displaying the restaurant's location.\n•Include a contact form to allow customers to submit inquiries, reservations, or feedback.\n4.Reservation System:\n•If desired, implement an online reservation system that allows visitors to book a table.\n•Include a calendar for selecting dates and times, along with the number of guests.\n5.About Us Page:\n•Develop a page that provides background information about the restaurant, such as its history, \nconcept, and culinary philosophy.\n•Include images of the chef and the kitchen staff, along with their brief bios.\n6.Special Offers and Events:\n•If applicable, create a section for special promotions, events, or seasonal menus.\n•Include details of ongoing deals, happy hours, or upcoming celebrations.\n7.Testimonials and Reviews:\n•If available, showcase customer testimonials and reviews to build trust and credibility.\n•Include snippets of feedback from satisfied patrons.",
+    "hue": 121
+  },
+  {
+    "id": "EXP40",
+    "number": 40,
+    "title": "Online Store",
+    "slug": "online-store",
+    "folder": "exp40-online-store",
+    "category": "Shopping",
+    "mode": "shop",
+    "brand": "Everyday Objects",
+    "tagline": "Simple things, thoughtfully chosen.",
+    "icon": "◒",
+    "label": "Products",
+    "features": [
+      "Product catalog",
+      "Cart quantities",
+      "Checkout",
+      "Order tracking"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Desk Lamp",
+        "category": "Home",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Desk Lamp — a fictional home listing for the Everyday Objects academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Cotton Overshirt",
+        "category": "Clothing",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Cotton Overshirt — a fictional clothing listing for the Everyday Objects academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Wireless Speaker",
+        "category": "Electronics",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Wireless Speaker — a fictional electronics listing for the Everyday Objects academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Everyday Tote",
+        "category": "Accessories",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Everyday Tote — a fictional accessories listing for the Everyday Objects academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "39",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "source": "39.  user visits an online store that features a clean and straightforward product catalog, allowing \nthem to easily browse and purchase items. The homepage displays a selection of featured products \nalong with categories for quick navigation. Each product listing includes a clear image, description, \nprice, and available options such as size or color. Users can add items to their shopping cart with a \nsingle click and view their cart at any time to adjust quantities or remove items. The website also \nincludes a search bar for finding specific products and a filter option to refine results by price, \nbrand, or popularity. Once the user is ready to check out, they can proceed to a secure checkout \npage where they enter shipping and payment details. The website also provides an order summary \nand confirmation, with the option to track their order status through their account.\n1.Homepage:\n•Design a visually appealing homepage that introduces the online store and showcases featured \nproducts.\n•Include a search bar, navigation menu, and clear calls to action to encourage users to explore the \nproduct catalog.\n2.Product Listings:\n•Create individual pages for each product, complete with product descriptions, images, pricing, and \navailability status.\n•Organize products into categories (e.g., electronics, clothing, accessories) for easy navigation.\n•Implement filters or sorting options to allow users to refine their product search.\n3.Shopping Cart:\n•Develop a shopping cart system that allows users to add products, view the contents of their cart, \nand adjust quantities.\n•Calculate and display the total price of items in the cart.\n•Provide options to remove items from the cart and clear the cart entirely.\n4.User Accounts (Optional):\n•Create user accounts that enable users to save their shipping and billing information for future \npurchases.\n•Allow registered users to view their order history and check the status of their orders.\n5.Checkout Process:\n•Design a simple and intuitive checkout process that collects necessary customer information.\n•Include a secure payment gateway to process payments for purchased items.\n6.Order Confirmation and Email Notifications:\n•Send order confirmation emails to customers after they complete a purchase.\n•Provide email notifications to users about the status of their orders, including shipping and delivery \nupdates.                                 ",
+    "hue": 158
+  },
+  {
+    "id": "EXP41",
+    "number": 41,
+    "title": "Travel Blog",
+    "slug": "travel-blog",
+    "folder": "exp41-travel-blog",
+    "category": "Creative",
+    "mode": "content",
+    "brand": "Elsewhere Journal",
+    "tagline": "Stories from the road less hurried.",
+    "icon": "☀",
+    "label": "Stories",
+    "features": [
+      "Destination filters",
+      "Interactive map",
+      "Photo stories",
+      "Comments and sharing"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "A Morning in Kodaikanal",
+        "category": "Kodaikanal",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "A Morning in Kodaikanal — a fictional kodaikanal listing for the Elsewhere Journal academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Chennai Through Its Food",
+        "category": "Chennai",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Chennai Through Its Food — a fictional chennai listing for the Elsewhere Journal academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Coorg in the Rain",
+        "category": "Coorg",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Coorg in the Rain — a fictional coorg listing for the Elsewhere Journal academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Walking Old Mysore",
+        "category": "Mysore",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Walking Old Mysore — a fictional mysore listing for the Elsewhere Journal academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "40",
+    "page": 37,
+    "pages": [
+      37,
+      38
+    ],
+    "source": "40. A travel enthusiast creates a travel blog website to document and share their adventures with \na global audience. The homepage features an attractive layout with stunning travel photos and a \nmap highlighting visited destinations. Each blog post offers an immersive experience, with \ndetailed narratives, captivating images, and travel tips for various locations. Readers can easily \nnavigate through categories such as destinations, travel guides, food experiences, and cultural \ninsights. The website includes a comment section for readers to share their thoughts, ask \nquestions, and connect with the blogger. An \"About\" page gives insights into the blogger’s \njourney and passion for travel, while a \"Resources\" section provides useful travel tools, packing \nlists, and booking recommendations. The platform also integrates social media sharing options, \nallowing readers to easily share posts and follow the blogger’sadventures in real time.\n1.Homepage:\n•Create an inviting homepage that showcases recent or featured travel articles.\n•Include a visually appealing header with a site logo and navigation menu for easy access to \nvarious sections.\n2. Blog Articles:\n•Develop individual blog articles that narrate your travel adventures.\n•Each article should include text content, high-quality images, and possibly videos.\n•Implement a clean and readable layout for articles, including headings, paragraphs, and \ncaptions.\n3.Travel Destinations:\n•Organize your blog posts by travel destinations or regions.\n•Allow users to explore your articles by filtering them based on specific locations.\n4.Interactive Map:\n•Integrate an interactive map that displays markers for the locations you've visited.\n•Clicking on a marker should lead users to the respective travel articles related to that location.\n5.Photo Galleries:\n•Create photo galleries within your articles to showcase your travel photos.\n•Include features for users to view photos as slideshows or open them in larger formats.\n6.User Comments and Engagement:\n•Implement a comment section on each blog post, encouraging reader engagement and \ndiscussions.\n•Enable social media sharing for each article to expand your blog's reach.\n7.About the Traveler:\n•Dedicate a page to introduce yourself, including your background, travel interests, and future \nplans.\n•Include a photo and brief biography.",
+    "hue": 195
+  },
+  {
+    "id": "EXP42",
+    "number": 42,
+    "title": "Digital Recipe Book",
+    "slug": "recipe-book",
+    "folder": "exp42-recipe-book",
+    "category": "Creative",
+    "mode": "recipe",
+    "brand": "The Recipe Notebook",
+    "tagline": "Something wonderful is cooking.",
+    "icon": "♨",
+    "label": "Recipes",
+    "features": [
+      "Ingredient search",
+      "Serving scaler",
+      "Meal planner",
+      "Shopping list"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Garden Tomato Pasta",
+        "category": "Italian",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Garden Tomato Pasta — a fictional italian listing for the The Recipe Notebook academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Coconut Breakfast Bowl",
+        "category": "Breakfast",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Coconut Breakfast Bowl — a fictional breakfast listing for the The Recipe Notebook academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Lemon Rice",
+        "category": "Indian",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Lemon Rice — a fictional indian listing for the The Recipe Notebook academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Chocolate Oat Cookies",
+        "category": "Dessert",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Chocolate Oat Cookies — a fictional dessert listing for the The Recipe Notebook academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "41",
+    "page": 38,
+    "pages": [
+      38,
+      39
+    ],
+    "source": "41. A user visits the digital recipe book platform to explore and share culinary creations. The \nhomepage features a curated collection of popular recipes, categorized by cuisine, dietary \npreferences, and difficulty levels. Users can search for specific recipesor browse through themed \ncollections. Each recipe page includes a detailed list of ingredients, step-by-step instructions, and \nhigh-quality visuals to guide the cooking process. Users can create personal accounts to save their \nfavorite recipes, upload their own creations, and even customize the ingredients based on serving \nsize or dietary needs. The platform also allows users to rate and comment on recipes, fostering a \ncommunity of food enthusiasts. Additionally, a meal planner tool helps users organize their weekly \nmenus, while an integrated shopping list feature makes it easy to gather the necessary ingredients.\n1.User-Friendly Interface:\n•Design a user-friendly and visually appealing interface that makes it easy for users to browse and \nsearch for recipes.\n•Implement a clean and organized layout with intuitive navigation.\n2.Recipe Listings:\n•Create an extensive database of recipes, organized into categories or tags (e.g., breakfast, main \ncourse, desserts, vegetarian).\n•Include a search bar for users to quickly find recipes based on keywords or ingredients.\n3.Recipe Pages:\n•Each recipe page should feature a high-quality image of the prepared dish.\n•Include detailed cooking instructions, a list of ingredients, preparation time, and servings.\n•Allow users to add their own reviews and ratings.\n4.Cooking Instructions:\n•Provide step-by-step cooking instructions, including specific measurements and techniques.\n•Add tips, variations, and cooking notes for each recipe.\n5.Ingredients List:\n•Include a list of ingredients with their quantities and measurements, making it easy for users to \ncreate shopping lists.\n6.Recipe Search and Filter:\n•Implement advanced search and filtering options, enabling users to refine recipe searches by \ndietary restrictions, cooking time, or cuisine.\n7.User Accounts (Optional):\n•Allow users to create accounts, save their favorite recipes, and submit their own recipes.\n•Implement features for users to customize serving sizes and generate ingredient lists accordingly.\n8.Comments and Discussions:\n•Integrate a comments section for users to leave feedback, ask questions, or share their cooking \nexperiences.\n•Encourage a sense of community and collaboration among users.\n9.Print and Share:\n•Enable users to print recipes in a formatted and printer-friendly layout.\n•Include social media sharing options for users to share their favorite recipes with friends and \nfamily.",
+    "hue": 232
+  },
+  {
+    "id": "EXP43",
+    "number": 43,
+    "title": "Electricity Bill Payment",
+    "slug": "electricity",
+    "folder": "exp43-electricity",
+    "category": "Finance",
+    "mode": "electricity",
+    "brand": "Current & Clear",
+    "tagline": "A brighter way to manage bills.",
+    "icon": "ϟ",
+    "label": "Connections",
+    "features": [
+      "Progressive tariffs",
+      "Late fines",
+      "Bill payments",
+      "Configurable rates"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Domestic Connection",
+        "category": "Domestic",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Domestic Connection — a fictional domestic listing for the Current & Clear academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Commercial Connection",
+        "category": "Commercial",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Commercial Connection — a fictional commercial listing for the Current & Clear academic demonstration.",
+        "rating": 4.4
+      }
+    ],
+    "printed": "42",
+    "page": 39,
+    "pages": [
+      39,
+      40
+    ],
+    "source": "42.A customer visits the online electricity bill payment website to conveniently manage their \nelectricity payments. After logging in, they are directed to the dashboard, where they can view their \ncurrent bill amount, due date, and payment history. The customer enters their payment details, \nselects a preferred payment method (e.g., credit card, debit card, net banking, or digital wallet), and \nconfirms the transaction. Upon successful payment, a receipt is generated, which can be downloaded \nor emailed. The website also offers options for setting up automatic payments and sending bill \nreminders via SMS or email.\nADMIN\noLogin page\noUpdating the formula for the calculation of bill for each customer with respect to   \nthe given constraints,\noIf the type of the EB connection is domestic, Calculate the amount to be paid as follows\noFirst 100 units –Rs. 1 per unit\no101-200 units –Rs. 2.50 per unit\no201-500 Its –Rs. 4 per unit\no501 units –Rs. 6 per unit\noIf the type of the EB connection is commercial, Calculate the amount to be paid as follows\noFirst 100 units –Rs. 2 per unit\no101-200 units –Rs. 4.50 per unit\no201-500 its –Rs. 6 per unit\no501 units –Rs. 7 Per unit\noPage updated every two months (Duration by start and end date), last date of payment \noFine amount calculation (each date after the last date Rs.10 will be added as fine.\nCUSTOMER\noRegistration Page\noLogin Page\noBill payment by any one payment method",
+    "hue": 269
+  },
+  {
+    "id": "EXP44",
+    "number": 44,
+    "title": "Placement Examination",
+    "slug": "placement",
+    "folder": "exp44-placement",
+    "category": "Learning",
+    "mode": "exam",
+    "brand": "Launchpad Assessments",
+    "tagline": "Your next opportunity starts here.",
+    "icon": "✎",
+    "label": "Exams",
+    "features": [
+      "Scheduled tests",
+      "Automatic marking",
+      "Rankings",
+      "Re-evaluation"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Web Foundations Assessment",
+        "category": "Technical",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Web Foundations Assessment — a fictional technical listing for the Launchpad Assessments academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Quantitative Aptitude",
+        "category": "Aptitude",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Quantitative Aptitude — a fictional aptitude listing for the Launchpad Assessments academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Logical Reasoning",
+        "category": "Reasoning",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Logical Reasoning — a fictional reasoning listing for the Launchpad Assessments academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Communication Skills",
+        "category": "Language",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Communication Skills — a fictional language listing for the Launchpad Assessments academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "43",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "source": "43.A student logs into the online placement examination website using their credentials. They are \nguided to an examination dashboard where they can start their placement test at the scheduled time. \nAfter completing the test, the system automatically evaluatesthe answers and generates a score. \nOnce the results are processed, the website displays a list of students who have passed the exam, \nalong with their scores and rankings. Students can also view detailed feedback on their performance \nand download their scorecards. The website ensures secure access to results and provides an option \nto apply for re-evaluation if needed.\nADMIN \n•Login\n•Providing Login rights to Candidate for attending exam\n•Scheduling the Exam\n•Loading the question \n•Publishing the Result\nCANDIDATE\n•Login\n•Attempt the exam by choosing allotted schedule\n•Seeing the Result",
+    "hue": 306
+  },
+  {
+    "id": "EXP45",
+    "number": 45,
+    "title": "Painting Rating and Review",
+    "slug": "painting-rating",
+    "folder": "exp45-painting-rating",
+    "category": "Creative",
+    "mode": "painting",
+    "brand": "The Open Gallery",
+    "tagline": "Every perspective adds something.",
+    "icon": "◈",
+    "label": "Paintings",
+    "features": [
+      "Painting submissions",
+      "Display packages",
+      "Ratings",
+      "Review sentiment"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Evening at the Lake",
+        "category": "Landscape",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Evening at the Lake — a fictional landscape listing for the The Open Gallery academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Ochre and Indigo",
+        "category": "Abstract",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Ochre and Indigo — a fictional abstract listing for the The Open Gallery academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "A Study in Green",
+        "category": "Botanical",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "A Study in Green — a fictional botanical listing for the The Open Gallery academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "City After Rain",
+        "category": "Urban",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "City After Rain — a fictional urban listing for the The Open Gallery academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "44",
+    "page": 41,
+    "pages": [
+      41
+    ],
+    "source": "44.An admin logs into the website’s backend to upload a new painting for display on the rating and \nreview webpage. Once uploaded, the painting is visible to customers, who can view it and submit \ntheir ratings. The rating system allows users to provide a score(e.g., 1 to 5 stars) and leave written \nfeedback. As customers submit their reviews, the webpage dynamically displays the average rating \nalong with a summary of positive and negative comments. The admin can monitor the feedback, \nrespond to reviews, and analyze customer sentiments to make informed decisions about future \ndisplays or sale\nADMIN\n•Login\n•Loading and Collecting reviews of both positive and negative about the Painting \n•Updating the webpage by new painting based on schedules \n•Before updating the new painting show the positive and negative reviews of the \nprevious painting \n•Login and Registration for owner of the painting \n•Collecting money based on the number of days the painting will be available (Package) \nfor  customers review \n•Mode of Transaction \n•Customer Login through Social media or mail id authentication\nOWNER\n•Registration includes submitting painting and choosing package and completion of      \npayment \n•Login\n•Seeing their painting reviews\nCUSTOMER\n•Authenticated Login\n•Submitting reviews about the painting ",
+    "hue": 343
+  },
+  {
+    "id": "EXP46",
+    "number": 46,
+    "title": "Income Tax Calculation",
+    "slug": "income-tax",
+    "folder": "exp46-income-tax",
+    "category": "Finance",
+    "mode": "tax",
+    "brand": "Tax Notebook",
+    "tagline": "Understand the numbers behind your income.",
+    "icon": "₹",
+    "label": "Examples",
+    "features": [
+      "PDF slab calculation",
+      "Deductions",
+      "Admin rules",
+      "Summary export"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Academic PDF tax rules",
+        "category": "Example",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Academic PDF tax rules — a fictional example listing for the Tax Notebook academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Configurable deductions",
+        "category": "Configuration",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Configurable deductions — a fictional configuration listing for the Tax Notebook academic demonstration.",
+        "rating": 4.4
+      }
+    ],
+    "printed": "45",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "source": "45.An employee visits the income tax calculation webpage, where they are prompted to enter their financial \ndetails, such as annual salary, bonuses, and other taxable income. The webpage also allows the employee to \ninput deductions and exemptions, such as insurance premiums or retirement contributions. After submitting \nthe information, the system calculates the applicable income tax based on the latest tax slabs and displays a \ndetailed breakdown, including total tax liability, net income after tax, and any tax-saving tips. The employee \ncan then download a summary report for their records or use the data for filing their tax returns.\nADMIN\n•Login\n•Update the fields required for collecting input from employee \n•Modify the input value taken for the calculation based on government norms, Now your \npage can take the norms as follows,\nNet Taxable Income = (Gross pay * 12) -(House Rent Allowance *12) -\n(Standard Detection =50,000)-{(Pension*12   Maximum    \ndetection of this category is 150,000} -) -(Health  \nInsurance * 12 \nif net taxable is below 500,000/-tax is Nil. if it exceeds condition then Tax\ncalculation  \nslab rate    given below is to be followed. \n0 to 250,000   tax=0, \n250,001 to 500,000  tax= 5% (net taxable income –250,000)  \n500,001 to 1000,000   tax= 12, 500 + 20% (net taxable income –500,000 ) \nif the income > 10,00,000,  tax= 112,500 + 30% (net taxable income –\n10,00,000).   \nEMPLOYEE\n•Login by any of the existing authenticated credentials (like social media login or  gmail \nlogin)\n•Calculating Tax page",
+    "hue": 20
+  },
+  {
+    "id": "EXP47",
+    "number": 47,
+    "title": "Phone Bill Payment",
+    "slug": "phone-bill",
+    "folder": "exp47-phone-bill",
+    "category": "Finance",
+    "mode": "phone",
+    "brand": "Hello Account",
+    "tagline": "Keep your connections simple.",
+    "icon": "☎",
+    "label": "Plans",
+    "features": [
+      "Partial payments",
+      "Late fines",
+      "Billing periods",
+      "Receipt history"
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "name": "Everyday Mobile",
+        "category": "Mobile",
+        "price": 499,
+        "stock": 8,
+        "location": "Adyar",
+        "description": "Everyday Mobile — a fictional mobile listing for the Hello Account academic demonstration.",
+        "rating": 4.3
+      },
+      {
+        "id": "item-2",
+        "name": "Family Connect",
+        "category": "Family",
+        "price": 899,
+        "stock": 9,
+        "location": "Velachery",
+        "description": "Family Connect — a fictional family listing for the Hello Account academic demonstration.",
+        "rating": 4.4
+      },
+      {
+        "id": "item-3",
+        "name": "Home Broadband",
+        "category": "Broadband",
+        "price": 1499,
+        "stock": 10,
+        "location": "OMR",
+        "description": "Home Broadband — a fictional broadband listing for the Hello Account academic demonstration.",
+        "rating": 4.5
+      },
+      {
+        "id": "item-4",
+        "name": "Talk More",
+        "category": "Voice",
+        "price": 2499,
+        "stock": 11,
+        "location": "Anna Nagar",
+        "description": "Talk More — a fictional voice listing for the Hello Account academic demonstration.",
+        "rating": 4.6
+      }
+    ],
+    "printed": "46",
+    "page": 42,
+    "pages": [
+      42,
+      43
+    ],
+    "source": "46.A customer accesses the online phone bill payment website to manage their monthly phone bill payments. \nUpon logging in, the customer is directed to their account dashboard, where they can view their current bill \ndetails, including the due date, outstanding amount, and any previous payments. The customer can choose \nto pay the entire bill or a custom amount, selecting from various payment options such as credit/debit cards, \nnet banking, or mobile wallets. After entering their payment information, they confirm the transaction, and \nthe system processes the payment securely. Upon successful completion, a confirmation message is displayed, \nand a receipt is emailed to the customer. The website also offers features like setting up recurring payments, \nviewing detailed billing history, and enabling notifications for upcoming due dates.\nADMIN\n•Login page\n•Page updated every month (Duration by start and end date), last date of payment \nFine amount calculation (each date after the last date Rs.10 will be added as fine)\nCUSTOMER\n•Registration Page\n•Login Page\n•Bill payment by any one payment method",
+    "hue": 57
+  }
+]

@@ -1,0 +1,42 @@
+// Fictional resource records exposed in both public information and admin CRUD.
+export function seedResources(e){const common={};const one=(type,values)=>common[type]=[{id:`SEED-${e.number}-1`,values,status:'Approved',created:'2026-10-31'}];
+ switch(e.slug){
+ case 'library':one('Study materials',{Title:'Web foundations',Year:'2',Semester:'3',Content:'HTML uses semantic elements. CSS uses the cascade and layout systems. JavaScript handles events and local state. Practice: build a labelled form and validate it.'});one('Members',{'Demo name':'Ananya Demo',Email:'ananya@example.test',Course:'Computing',Year:'2'});break;
+ case 'hotel':one('Room information',{Title:'Rooms, amenities and arrival',Content:'Single: one guest, desk and Wi-Fi. Double: two guests, garden view. Deluxe: two guests and lounge. Suite: four guests with sitting room. Check-in 14:00; check-out 11:00. Booking changes and cancellation require three days before arrival.'});one('Travel guide',{Title:'A weekend in the hills',Content:'A fictional guide to a morning lakeside walk, the town market and an evening garden visit. Local sample shuttle runs 09:00–17:00.'});break;
+ case 'bus':one('Schedules',{'Bus name':'Coastal Volvo',Origin:'Chennai',Destination:'Bengaluru',Departure:'09:00',Fare:'1200'});one('News',{Title:'Travel light',Content:'Arrive at the fictional boarding point 20 minutes before departure. All routes and availability are sample data.'});break;
+ case 'train':one('Fare and refund rules',{Zone:'Southern',Class:'Sleeper',Fare:'1200','Refund percentage':'80'});break;
+ case 'flight':one('Flight schedules',{Flight:'Cloudline CL101',Origin:'Chennai',Destination:'Delhi',Date:'2026-11-10',Departure:'09:00',Class:'Economy'});break;
+ case 'salon':one('Stylists',{'Demo name':'Meera Shah',Specialty:'Hair and botanical skincare','Working hours':'09:00–18:00'});break;
+ case 'hospital':one('Hospitals',{'Hospital name':'MedCare Sample Hospital',Location:'Adyar',Specialties:'General, Cardiology, Dermatology',Contact:'hospital@example.test'});break;
+ case 'techsavvy':one('Promotions',{Code:'DEMO10','Discount percentage':'10',Description:'A fictional promotion for learning about checkout rules.'});break;
+ case 'home-finder':one('Agents',{'Demo name':'Meera Demo',Company:'Garden Homes',Area:'Adyar',Contact:'agent@example.test'});break;
+ case 'insureeasy':one('Agents',{'Demo name':'Kavin Demo',Email:'agent@example.test',Region:'Chennai','Commission percentage':'5'});break;
+ case 'renewmarket':one('Categories',{Name:'Preloved furniture',Description:'Desks, shelves and chairs looking for another home.'});break;
+ case 'veterinary':one('News',{Title:'Preparing a fictional consultation request',Content:'Share a fictional scenario with a demo clinician. This portal provides no diagnosis, medicine or clinical guidance.'});one('Cure education',{Title:'How the demo consultation works','Fictional non-clinical note':'Create a request, let the doctor role add a response, and review the status history. Responses are non-clinical sample notes.'});break;
+ case 'jobs':one('Directors',{'Demo name':'Meera Demo',Company:'Northstar Sample Studio',Email:'director@example.test'});break;
+ case 'waste':one('Bins',{'Bin name':'Adyar Collection Point',Area:'Adyar','Waste type':'Organic','Load percentage':'65'});one('Drivers',{'Demo name':'Kavin Demo','Vehicle label':'DEMO-TRUCK-1','Assigned route':'Adyar → Velachery → Demo depot'});break;
+ case 'blood-bank':one('Donors',{'Demo name':'Ananya Demo','Blood group':'O+',Area:'Adyar','Last donation':'2026-06-01'});one('Blood stocks',{Bank:'Adyar Sample Bank','Blood group':'O+',Units:'8',Expiry:'2026-11-30'});break;
+ case 'wanderlust':one('Food guide',{Name:'Pinewood Kitchen',Destination:'Kodaikanal',Description:'A fictional dining stop serving a local sample lunch menu.'});one('Route guide',{Origin:'Chennai',Destination:'Kodaikanal','Travel hours':'9',Description:'Illustrative road route with a midway rest stop. No live road or transport data.'});break;
+ case 'roadside':one('Mechanic businesses',{'Business name':'Arun Auto Care',Location:'Adyar',Services:'Tyre, battery and minor repairs','Demo licence label':'DEMO-LIC-101'});break;
+ case 'challan':one('Traffic updates',{Title:'Campus road demonstration',Area:'Demo Campus',Update:'Illustrative traffic notice. No live traffic monitoring or police integration.'});break;
+ case 'bus-pass':case 'bus-pass-management':one('Routes',{Origin:'Adyar',Destination:'SIMATS',Departure:'08:00',Stops:'Adyar, Guindy, Pallavaram, SIMATS','Distance kilometres':'28'});one('Location updates',{'Bus label':'DEMO-BUS-1','Current stop':'Guindy','Next stop':'Pallavaram','Minutes to destination':'35'});break;
+ case 'artistryhub':one('News',{Title:'Quiet Horizons — sample exhibition','Publication date':'2026-11-12',Content:'Emily Harris presents a fictional collection of landscapes at the Demo Campus Gallery.'});one('Works catalogue',{Title:'Quiet Horizons','Release date':'2022-06-01',Medium:'Acrylic on canvas','Catalogue identifier':'EH-DEMO-001'});break;
+ case 'event':one('Speakers',{'Demo name':'Meera Shah',Session:'Design That Includes',Time:'10:00',Bio:'A fictional interface designer exploring accessible web experiences.'});break;
+ case 'ijsse':one('Editorial board',{'Demo name':'Ananya Rao',Specialty:'Computing',Role:'Editor'});break;
+ case 'ko-matha':one('Vendors',{'Demo name':'Greenfield Sample Farm',Area:'Chennai','Milk litres':'120'});one('Cow records',{'Demo cow label':'DEMO-COW-01',Breed:'Sample native breed','Age years':'4','Daily milk litres':'8'});break;
+ case 'ram-infotech':one('Service requests',{'Demo customer':'Ananya Demo','Laptop model':'Atlas Pro 14',Issue:'Sample keyboard inspection',Appointment:'2026-11-10'});break;
+ case 'kodaikanaleats':one('Room staff',{'Demo name':'Kavin Demo','Room type':'Single room',Availability:'Available'});one('Seasonal rates',{Season:'Seasonal',Start:'2026-12-01',End:'2027-01-31',Multiplier:'1.2'});break;
+ case 'learnwell':one('Announcements',{Title:'November classes open',Date:'2026-11-01',Content:'Fictional maths and computing sessions are available online and offline. Review subject fees and register in the catalog.'});one('Teachers',{'Demo name':'Meera Demo',Subject:'Mathematics',Mode:'Online'});break;
+ case 'educonnect':one('Timetable',{Course:'Web Foundations',Teacher:'Ananya Demo',Date:'2026-11-10',Start:'10:00',End:'11:00'});one('Assignments',{Title:'Build a semantic page',Course:'Web Foundations',Due:'2026-11-15',Instructions:'Create a header, navigation, main landmark and footer, then label a native form.'});break;
+ case 'bookhaven':one('Book blog',{Title:'A reading list for curious makers',Author:'Ananya Demo',Content:'Start with Practical JavaScript for hands-on learning, then explore Stories of Chennai for a local perspective.'});break;
+ case 'professional-showcase':one('Blog',{Title:'Designing a calmer interface',Date:'2026-10-31',Content:'Start with a clear hierarchy, readable text and a simple navigation path. Test the result with a keyboard.'});one('Career timeline',{Role:'Frontend developer',Organisation:'Northstar Sample Studio',Start:'2024-06-01',End:'2026-10-31',Description:'Built fictional accessible portals and tools using vanilla web technologies.'});break;
+ case 'gourmet-haven':one('Offers and events',{Title:'Weekday tasting menu',Date:'2026-11-10',Description:'A fictional three-course menu from ₹999.'});one('Chef profiles',{'Demo name':'Meera Shah',Role:'Head chef',Bio:'A fictional chef exploring familiar flavours through seasonal ingredients.'});break;
+ case 'travel-blog':one('Travel resources',{Title:'A lighter weekend bag',Destination:'Kodaikanal',Content:'Sample packing list: layers, water, reusable bag, notebook and a rain cover. Verify conditions separately before real travel.'});break;
+ case 'recipe-book':one('Meal planner',{Day:'Monday',Meal:'Dinner',Recipe:'Garden Tomato Pasta'});break;
+ case 'electricity':one('Billing periods',{Start:'2026-09-01',End:'2026-10-31',Due:'2026-11-15',Connection:'Domestic'});break;
+ case 'placement':one('Exam schedule',{Exam:'Web Foundations Assessment',Start:'2026-11-01','Start time':'09:00','Duration minutes':'10'});break;
+ case 'painting-rating':one('Painting packages',{Title:'One week showcase',Days:'7','Daily price':'50'});break;
+ case 'phone-bill':one('Billing periods',{Start:'2026-10-01',End:'2026-10-31',Due:'2026-11-15',Amount:'899'});break;
+ }
+ return common;
+}

@@ -1,0 +1,10 @@
+export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const money = value => new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:2}).format(Number(value)||0);
+export const today = () => new Date().toLocaleDateString('en-CA');
+export const days = (a,b) => Math.max(0,Math.ceil((new Date(a+'T00:00:00')-new Date(b+'T00:00:00'))/86400000));
+export const uid = prefix => `${prefix}-${crypto.randomUUID().slice(0,8).toUpperCase()}`;
+export function read(key, fallback) {try {const raw=localStorage.getItem(key);return raw ? JSON.parse(raw) : structuredClone(fallback);} catch {return structuredClone(fallback);}}
+export function write(key, value) {try {localStorage.setItem(key,JSON.stringify(value));return true;}catch {alert('Browser storage is unavailable or full. Export your records before continuing.');return false;}}
+export function download(name, value, type='application/json') {const blob=new Blob([typeof value==='string'?value:JSON.stringify(value,null,2)],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);}
+export function electricity(units, commercial=false,rates=null) {const r=rates|| (commercial?[2,4.5,6,7]:[1,2.5,4,6]);let left=Math.max(0,units),total=0;[100,100,300,Infinity].forEach((width,i)=>{const q=Math.min(left,width);total+=q*r[i];left-=q;});return total;}
+export function tax(input,rules={standard:50000,pensionCap:150000,rebate:500000}) {const annual=input.gross*12+input.bonus+input.other;const deduction=input.hra*12+rules.standard+Math.min(input.pension*12,rules.pensionCap)+input.health*12;const taxable=Math.max(0,annual-deduction);const amount=taxable<=rules.rebate?0:taxable<=500000?(taxable-250000)*.05:taxable<=1000000?12500+(taxable-500000)*.2:112500+(taxable-1000000)*.3;return {annual,deduction,taxable,tax:Math.max(0,amount),net:annual-Math.max(0,amount)};}

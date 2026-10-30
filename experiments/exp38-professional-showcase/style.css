@@ -1,0 +1,3 @@
+@import url("../../styles/experiment.css");
+:root{--accent:hsl(84 48% 30%);--tint:hsl(84 45% 94%);--warm:hsl(129 60% 84%);}
+h1,.brand{font-family:Georgia,serif} .hero{border-radius:2px} 
